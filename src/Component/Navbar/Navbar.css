@@ -1,0 +1,39 @@
+.menubar{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.menubar ul{
+    margin-left: 350px;
+    
+}
+.menubar ul .icon{
+    margin-left: 300px;
+}
+
+.menubar a img{
+    height: 50px;
+    margin-left: 10px;
+   
+    
+}
+@media (max-width: 1024px){
+    .menubar ul .icon{
+        margin-left: 130px;
+    }
+    .menubar ul{
+        margin-left: 130px;
+    }
+}
+@media (max-width: 768px){
+    .menubar ul{
+        margin-left: 0px;
+    }
+    .menubar ul .icon{
+        margin-left: 0;
+    }
+
+    .menubar ul .icon .img{
+        margin-right: 50px;
+    }
+}

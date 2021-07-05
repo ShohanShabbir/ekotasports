@@ -1,0 +1,135 @@
+.footer{
+    height: 50vh;
+    margin-top: 100px;
+    font-family: 'Poppins';
+    background: #000;
+}
+.subscribe{
+    background: #222222;
+    color: #fff;
+    height: 100px;
+   
+}
+.subscribe h6{
+    margin-top: 20px;
+}
+.footer input{
+    width: 90%;
+    height: 40px;
+    background-color: #222222;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+.footer input::placeholder{
+    color: #fff;
+    
+}
+.footer  .btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #ff0028;
+    margin-top: 30px;
+}
+.main-part{
+    color: #fff;
+    margin-top: 100px;
+}
+.main-part ul{
+    list-style: none;
+}
+
+.main-part img{
+    
+    filter: invert(0);
+}
+.copyright{
+    background: #222222;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    
+    
+}
+.main-part .logo img{
+    height: 120px;
+    margin-left: 30px;
+    
+}
+.main-part .social{
+    filter: invert(1);
+}
+.copyright h6{
+    margin-left: 10px;
+}
+@media (max-width: 1440px){
+    .footer{
+        height: 45vh;
+    }
+}
+@media (max-width: 1024px){
+    .footer{
+        height: 45vh;
+    }
+    .main-part .logo img{
+        height: 80px;
+        
+        
+    }
+}
+@media (max-width: 768px){
+    .footer{
+        height: 44vh;
+        width: 100%;
+    }
+    .footer  .btn{
+        padding: 10px 18px;
+        border-radius: 5px;
+        background-color: #ff0028;
+        margin-top: 30px;
+    }
+    .footer .logo img{
+        height: 50px;
+    } 
+}
+@media (max-width: 600px){
+    .footer{
+        height: 100vh;
+    }
+    .footer .logo img{
+        margin-top: 0;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .subscribe{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 180px;
+    }
+    .main-part .logo img{
+        height: 100px;
+        margin-top: 0px;
+        
+    }
+    .copyright{
+        background: #222222;
+        height: 40px;
+        color: #fff;
+        font-size: 14px;
+        
+        
+    }
+    .footer .list{
+        margin: 0 20px;
+        padding: 0;
+    }
+    .footer .social{
+        margin: 0;
+        padding: 0;
+    }
+    .footer .address{
+        margin-left: 50px;
+    }
+  
+}
