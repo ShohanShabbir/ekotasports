@@ -1,135 +1,218 @@
-.footer{
-    height: 50vh;
+.footers{
+    height: 70vh;
     margin-top: 100px;
+    background: rgb(255, 255, 255);
+} 
+
+.footers h3{
+    font-weight: 400;
+    margin-left: 130px;
+    font-size: 60px;
+    margin-right: 30px;
     font-family: 'Poppins';
-    background: #000;
+
 }
-.subscribe{
-    background: #222222;
-    color: #fff;
-    height: 100px;
-   
-}
-.subscribe h6{
-    margin-top: 20px;
-}
-.footer input{
-    width: 90%;
-    height: 40px;
-    background-color: #222222;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    margin-top: 30px;
+.line-footer{
+    background-color: #000;
+    height: 3px;
+    width: 350px;
+    margin-left: 50px;
     
+
 }
-.footer input::placeholder{
-    color: #fff;
-    
+.footers h5{
+    font-size: 25px;
+    margin-left: 170px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
-.footer  .btn{
-    padding: 10px 30px;
-    border-radius: 5px;
-    background-color: #ff0028;
-    margin-top: 30px;
+.footers h6{
+    font-weight: 500;
+    margin-left: 100px;
+    transition: all 1s linear;
 }
-.main-part{
-    color: #fff;
-    margin-top: 100px;
+.footer:hover h6{
+    border-bottom: 1px solid #000;
 }
-.main-part ul{
+.footers .social-icon{
+    margin-left: 70px;
+}
+.footers .social-icon img{
+     height: 24px;
+     margin-left: 20px;
+     transition: all 1s linear;
+}
+.footers .social-icon img:hover{
+    transform: translateY(10px);
+    cursor: pointer;
+}
+.footers ul{
     list-style: none;
+    
+}
+.footers ul li{
+    margin-right: 50px;
+    margin-top: 30px;
+    
+}
+.footers .newsletter {
+    margin-top: 50px;
+    margin-left: 420px;
+    
+}
+.footers .newsletter h5{
+    margin-bottom: 50px;
+    margin-left: 190px;
 }
 
-.main-part img{
+.footers input{
+    font-family: 'Poppins';
+    width: 350px;
+    margin-left: 140px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
     
-    filter: invert(0);
 }
-.copyright{
-    background: #222222;
-    height: 30px;
+.footers .detail-section a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s linear;
+    
+}
+.footers .detail-section a:hover{
+    border-bottom:  4px solid #000;
+}
+.footers .button{
+    margin-left: 140px;
+    text-decoration: none;
+    width: 350px;
+    padding: 10px 134px;
+    border-radius:0;
+    font-family: 'Poppins';
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: all 0.3s ease-out;
+    box-shadow: inset 0 0 0 0 #000;
+    
+}
+
+.footers .button:hover{
+    box-shadow: inset 350px 0 0 0 #000;
     color: #fff;
-    font-size: 14px;
-    
-    
-}
-.main-part .logo img{
-    height: 120px;
-    margin-left: 30px;
-    
-}
-.main-part .social{
-    filter: invert(1);
-}
-.copyright h6{
-    margin-left: 10px;
-}
-@media (max-width: 1440px){
-    .footer{
-        height: 45vh;
-    }
 }
 @media (max-width: 1024px){
-    .footer{
+    .footers{
         height: 45vh;
     }
-    .main-part .logo img{
-        height: 80px;
-        
+    .footers h3{
+        margin-left: 60px;
+    }
+    .footers h5{
+        margin-left: 100px;
+    }
+    .line-footer{
+        margin-left: 0;
+        width: 300px;
+    }
+    .footers .newsletter {
+        margin-top: 50px;
+        margin-left: 300px;
         
     }
+    .footers input{
+        font-family: 'Poppins';
+        width: 200px;
+        margin-left: 140px;
+        height: 55px;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+        border: 2px solid #000;
+        
+    }
+    .footers .button{
+        margin-left: 141px;
+        width: 200px;
+        padding: 10px 60px;
+        border-radius:0;
+        font-family: 'Poppins';
+        background: #fff;
+        color: #000;
+        border: 1px solid #000;
+        transition: all 0.3s ease-out;
+        box-shadow: inset 0 0 0 0 #000;
+        
+    }
+    .footers .newsletter {
+        margin-top: 50px;
+        margin-left: 200px;
+        
+    }
+    .footers input, .footers .button{
+        margin-left: 220px;
+    }
 }
+
 @media (max-width: 768px){
-    .footer{
-        height: 44vh;
-        width: 100%;
+    .line-footer{
+        margin-left: 0;
+        width: 200px;
     }
-    .footer  .btn{
-        padding: 10px 18px;
-        border-radius: 5px;
-        background-color: #ff0028;
-        margin-top: 30px;
+    .footers h3{
+        margin-left: 20px;
     }
-    .footer .logo img{
-        height: 50px;
-    } 
-}
-@media (max-width: 600px){
-    .footer{
-        height: 100vh;
-    }
-    .footer .logo img{
-        margin-top: 0;
-        height: 50px;
-        margin-bottom: 30px;
-    }
-    .subscribe{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        height: 180px;
-    }
-    .main-part .logo img{
-        height: 100px;
-        margin-top: 0px;
-        
-    }
-    .copyright{
-        background: #222222;
-        height: 40px;
-        color: #fff;
-        font-size: 14px;
-        
-        
-    }
-    .footer .list{
-        margin: 0 20px;
-        padding: 0;
-    }
-    .footer .social{
-        margin: 0;
-        padding: 0;
-    }
-    .footer .address{
+    .footers h5{
         margin-left: 50px;
     }
-  
+    .footers ul li{
+        margin-right: 50px;
+        margin-top: 30px;
+        
+    }
+    .detail-section{
+        margin-left: -15px;
+    }
+    .footers .newsletter {
+        margin-top: 50px;
+        margin-left: 70px;
+        
+    }
+    .footers input{
+        margin-left: 220px;
+    }
+    .footers .button{
+        margin-left: 220px;
+    }
+}
+@media (max-width: 600px){
+    .footers{
+        height: 50vh;
+    }
+    .line-footer{
+        display: none;
+    }
+    .footers .text h3{
+        font-size: 45px;
+       text-align: center;
+    }
+    .footers h5{
+        text-align: center;
+        margin-bottom: 100px;
+        }
+    .footers .newsletter{
+        margin-left: -150px;
+        
+    }
+    
+    .footers input{
+        margin-left: 290px;
+    }
+    .footers .button{
+        margin-left: 290px;
+        margin-top: 0;
+    }
+    
 }

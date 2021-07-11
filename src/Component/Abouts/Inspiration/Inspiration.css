@@ -1,0 +1,272 @@
+.inspiration{
+    height: 80vh;
+    margin-top: 200px;
+}
+.inspiration h1{
+    font-family: 'Poppins';
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .containers{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left1{
+    width: 50%;
+    background-image: url(../../../image/Rhns9QftfkRlWWBAri5rHBZArvxvEt4RygLPueojztEeJxFPc.jfif);
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 600px;
+    width: 550px;
+    margin-left: 200px;
+    transition: all 2s linear;
+}
+.left2{
+    width: 50%;
+    background-image: url(../../../image/Rhns9QftfkRlWWBAri5rHBZArvxvEt4RygLPueojztEeJxFPc.jfif);
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 600px;
+    width: 550px;
+    margin-left: 200px;
+    transition: all 2s linear;
+    
+}
+.left1:hover{
+    transform: translateX(-20px);
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.left2:hover{
+    transform: translateX(20px);
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+
+.right1{
+    width: 50%;
+    min-height: 420px;
+    width: 600px;
+    box-shadow: 0 0 0 1px #a0a3a5;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-left: -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Poppins';
+    z-index: 10;
+    transition: all 0.5s linear;
+}
+
+.rights1{
+    width: 50%;
+    min-height: 420px;
+    width: 600px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-right: -350px;
+    display: flex;
+    box-shadow: 0 0 0 1px #a0a3a5;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Poppins';
+    z-index: 10;
+    margin-left: 150px;
+    transition: all 0.5s linear;
+}
+
+.info{
+    margin-top: 70px;
+    font-family: 'Poppins';
+}
+.line{
+    background: #ff0028;
+    height: 5px;
+    width: 800px;
+    margin-bottom: 10px; 
+}
+
+.info img{
+    height: 550px;
+    margin-left: 90px;
+    object-fit: cover;
+   
+    
+}
+.inspiration h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.inspiration h4{
+    font-weight: 500;
+}
+.inspiration .discover-btn{
+    
+    background: #000000;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    transition: all 1s linear;
+    box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+    outline: none;
+}
+.inspiration .discover-btn:hover{
+    box-shadow: inset 165px 0 0 0 #000;
+}
+
+.box{
+    background: #fff;
+    box-shadow: 0 0 0 1px #E2E9ED;
+    box-shadow: 0 0 0 1px #a0a3a5;
+    font-family: 'Poppins';
+    position: relative;
+    padding: 60px 10px;
+    z-index: 0;
+    transition: all 0.2s linear;
+}
+.box:hover{
+    z-index: 1;
+    box-shadow: 0px 8px 50px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.box .avatar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+.box .box_content{
+    margin: 10px 0;
+}
+.box .box_content .title{
+    font-weight: 600;
+    line-height: 1.4rem;
+    margin: 0;
+    font-size: 18px;
+}
+.icons-social .img{
+    height: 16px;
+}
+.box .icons-social{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.2s all;
+}
+.box:hover .icons-social{
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+}
+.icons-social li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@media (max-width: 1024px){
+    
+   
+    .left2,.left1{
+        margin-left: 0;
+        width: 50%;
+    }
+    .rights1{
+        margin-left: 50px;
+        margin-right: -180px;
+        
+        
+    }
+   
+    .line{
+        width: 500px;
+    }
+    
+}
+
+@media (max-width: 768px){
+
+    .containers{
+        flex-direction: column;
+    }
+    .left2, .left1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .right1{
+        width: 70%;
+        margin-left: 0;
+        margin-top: -150px;
+    }
+    .rights1{
+        margin-top: 350px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 70%;
+        margin-bottom: -200px;
+    }
+    
+    
+    .inspiration{
+        margin-top: 450px;
+    }
+    .info img{
+        margin-left: 0;
+        height: 300px;
+    }
+    .line{
+        width: 300px;
+    }
+    .inspiration h2{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .inspiration h4{
+        font-size: 18px;
+    }
+    .inspiration h3{
+        font-size: 28px;
+    }
+    .inspiration p{
+        font-size: 14px;
+        margin-right: 50px;
+    }
+    .inspiration .btn{
+        background: #ff0028;
+        padding: 10px 20px;
+    }
+    .inspiration h1{
+        font-size: 40px;
+    }
+    .teams{
+        margin-top: 100px;
+    }
+    
+
+}
+
+

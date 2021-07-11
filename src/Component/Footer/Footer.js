@@ -8,69 +8,47 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer ">
-            <div className="subscribe">
-                <div className="container-fluid">
-                    <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-md-5">
-                            <h6>Subscribe to Ekota sports</h6>
-                            <small>To know latest news & events about the academy</small>
+        <div className="footers ">
+            <div className="container">
+                <div className="row d-flex justify-content-center align-items-center">
+                    <div className="col-md-4">
+                        <div className="line-footer"></div>
+                    </div>
+                    <div className="col-md-4 text">
+                        <h3>Ekota</h3>
+                        <h5>Sports</h5>
+                    </div>
+                    <div className="col-md-4"><div className="line-footer"></div></div>
+                </div>
+            </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4 col-sm-6 detail-section">
+                        <h6 className="mb-3"> <a href="#">Privacy policy</a> </h6>
+                        <h6 className="mb-3"><a href="#">Club policy</a></h6>
+                        <h6><a href="#">About</a></h6>
+                    </div>
+                    <div className="col-md-4 ">
+                        <div className="social-icon">
+                            <ul className="d-flex justify-content-center align-items-center">
+                                <li> <a href="https://www.facebook.com/ekotasports"><img className="img-fluid" src={facebook} alt="" /> </a> </li>
+                                <li> <img className="img-fluid" src={instagram} alt="" /> </li>
+                                <li> <img className="img-fluid" src={twitter} alt="" /> </li>
+                            </ul>
                         </div>
-                        <div className="col-md-7 d-flex justify-content-center align-items-center">
-                            <div className="col-md-9">
-                                <input type="text" placeholder="Your email address*" />
-                            </div>
-                            <div className="col-md-3">
-                                <a href="#" className="btn btn-danger">Subscribe</a>
-                            </div>
-                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 detail-section">
+                        <h6 className="mb-3"> <a href="#">Cookies policy</a> </h6>
+                        <h6 className="mb-3"><a href="#">News & Events</a></h6>
+                        <h6><a href="#">About</a></h6>
                     </div>
                 </div>
             </div>
-            <div className="main-part">
-                <div className="container-fluid">
-                    <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-md-3 logo">
-                            <img  src={logo} alt="" />
-                        </div>
-                        <div className="col-md-3 address">
-                            <h6>Aberdour Road <br />
-                                Goodmayes
-                                Ilford, Essex<br />
-                                IG3 9SP
-                            </h6>
-                            <h6 className="mt-3">
-                                +44 1253569872 <br />
-                                info@ekotasports.com
-                            </h6>
+            <div className="newsletter">
+                <h5>WEEKLY NEWSLETTER</h5>
+                <input type="text" required="required" placeholder="Name@gmail.com" /> <br />
+                <a href="#" className="button">Subscribe</a>
 
-                        </div>
-                        <div className="col-md-3 list">
-                            <ul>
-                                <li>About</li>
-                                <li>Partners</li>
-                                <li>Policies</li>
-                                <li>Club</li>
-                                <li>Success Stories</li>
-                                <li>Contact Us</li>
-                            </ul>
-                        </div>
-                        <div className="col-md-3">
-                            <div className="social">
-                                <ul>
-                                    <li><img style={{ height: '32px' }} className="img-fluid" src={facebook} alt="" /> </li>
-                                    <li><img style={{ height: '32px' }} className="img-fluid mt-2" src={twitter} alt="" /></li>
-                                    <li><img style={{ height: '32px' }} className="img-fluid mt-2" src={youtube} alt="" /></li>
-                                    <li><img style={{ height: '32px' }} className="img-fluid mt-2" src={instagram} alt="" /></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="copyright">
-                    <h6>Copyright © 2021 | All Rights Reserved | BitByteServ LTD</h6>
-                </div>
             </div>
 
         </div>

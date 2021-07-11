@@ -17,10 +17,24 @@
     margin-right: 595px;
     font-weight: 600;
 }
-.success .cricket h5{
+.success .crickets h5{
     margin-right: 590px;
     font-weight: 600;
 }
+
+.success .details{
+    max-width: 700px;
+    margin-left: 60px;
+    border-bottom: 2px solid #ff0028;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+@media (max-width: 1440px){
+    .success{
+        margin-top: 200px;
+    }
+}
+
 @media (max-width: 1024px){
     .success .education h5 {
         margin-right: 370px;
@@ -30,12 +44,16 @@
         margin-right: 350px;
         font-weight: 600;
     }
-    .success .cricket h5{
+    .success .crickets h5{
         margin-right: 340px;
         font-weight: 600;
     }
 }
 @media (max-width: 768px){
+    .success{
+        
+        margin-top: 250px;
+    }
     .success h1{
         font-size: 30px ;
     }
@@ -47,12 +65,16 @@
         margin-right: 280px;
         font-weight: 600;
     }
-    .success .cricket h5{
+    .success .crickets h5{
         margin-right: 270px;
         font-weight: 600;
     }
 }
 @media (max-width: 600px){
+    
+    .success{
+        margin-top: 100px;
+    }
     .success .education h5 {
         
         margin-right: 200px;
@@ -62,7 +84,7 @@
         margin-right: 180px;
         font-weight: 600;
     }
-    .success .cricket h5{
+    .success .crickets h5{
         margin-right: 170px;
         font-weight: 600;
     }

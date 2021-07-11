@@ -1,6 +1,11 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Header from '../Header/Header';
+import About from '../../Component/About/About';
+import Banner from '../../Component/Banner/Banner';
+import Success from '../../Component/Success/Success';
+import Footer from '../../Component/Footer/Footer';
+
 import video from '../../video/Untitled.mov';
 import './Home.css';
 
@@ -12,6 +17,11 @@ const Home = () => {
             </video>
             <Navbar></Navbar>
             <Header></Header>
+            <About></About>
+            <Banner></Banner>
+            <Success></Success>
+            <Footer></Footer>
+
         </div>
     );
 };

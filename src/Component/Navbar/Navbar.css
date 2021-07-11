@@ -1,14 +1,31 @@
 .menubar{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
 
 }
 .menubar ul{
     margin-left: 350px;
     
 }
+.menubar ul a{
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+.menubar ul a:hover{
+    
+    transform: translateX(-5px);
+    
+}
 .menubar ul .icon{
-    margin-left: 300px;
+    margin-left: 200px;
+    
+}
+.menubar ul .icon .btn{
+    background: #ff0028;
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 14px;
 }
 
 .menubar a img{
@@ -17,12 +34,27 @@
    
     
 }
+@media (max-width: 1440px){
+    .menubar ul .icon .btn{
+        background: #ff0028;
+        padding: 5px 10px;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1366px){
+    .menubar ul {
+        margin-left: 280px;
+    }
+}
 @media (max-width: 1024px){
     .menubar ul .icon{
-        margin-left: 130px;
+        margin-left: 100px;
     }
     .menubar ul{
-        margin-left: 130px;
+        margin-left: 80px;
     }
 }
 @media (max-width: 768px){
@@ -35,5 +67,33 @@
 
     .menubar ul .icon .img{
         margin-right: 50px;
+    }
+}
+@media (max-width: 600px){
+    .menubar ul .icon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .menubar ul .icon .btn{
+        padding: 4px 8px;
+        font-size: 14px;
+
+    }
+    .menubar ul .icon{
+        margin-left: 0x;
+    }
+    .menubar ul a:hover{
+        border-bottom: 2px solid #ff0028;
+        transform: translateX(-5px);
+        width: 70px;
+        
+    }
+    .menubar ul a{
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .menubar ul .icon .img{
+        margin-left: 0;
+        margin-right: 250px;
     }
 }

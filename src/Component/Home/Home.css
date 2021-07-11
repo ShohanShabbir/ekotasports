@@ -6,3 +6,20 @@
     height: 100vh;
     margin-bottom: 100vh;
 }
+@media (max-width: 1366px){
+    .video{
+        height: 60vh;
+        margin-bottom: 200px;
+    }
+}
+@media (max-width: 1440px){
+    .video{
+        height: 100vh;
+        margin-bottom: -100px;
+    }
+}
+@media(max-width: 600px){
+    .video{
+        height: 80vh;
+    }
+}

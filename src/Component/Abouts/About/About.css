@@ -1,0 +1,28 @@
+.abouts{
+    background:url(../../../image/ZQgXhC84UabKkGfmeXpsDnR3q8jBok0ZJIJUkXQ86FoeJxFPc.jfif);
+    height: 500px;
+    background-size: cover;
+    
+}
+.overlay h1{
+    font-family: 'Poppins';
+    font-size: 150px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+@media (max-width:768px){
+    .abouts{
+        height: 700px;
+    }
+    .overlay h1{
+        font-size: 100px;
+    }
+}
+@media (max-width: 600px){
+    .overlay h1{
+        font-size: 80px;
+    }
+}
