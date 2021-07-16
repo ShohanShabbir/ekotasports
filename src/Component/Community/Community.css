@@ -1,0 +1,167 @@
+.community{
+    background: url(../../image/ZQgXhC84UabKkGfmeXpsDnR3q8jBok0ZJIJUkXQ86FoeJxFPc.jfif);
+    height: 500px;
+
+}
+.community h1{
+    font-family: 'Poppins';
+    font-size: 150px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #fff;
+    margin-left: 20px;
+}
+.health{
+    font-family: 'Poppins';
+    
+
+}
+.health h1{
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.health h4{
+    font-size: 35px;
+    font-weight: 500;
+    color: #e15430
+}
+.health p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.projects{
+    font-family: "Poppins";
+    margin-top: 100px;
+}
+.projects h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.projects p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.projects img{
+    height: 300px;
+    object-fit: cover;
+}
+.community-slider {
+    width: 1100px;
+    align-items: center;
+}
+.para1{
+    height: 500px;
+}
+.para1 h1{
+    font-size: 80px;
+    margin-left: 30px;
+}
+.para1 p{
+    padding: 0 50px;
+    
+}
+.carousel-control-prev, .carousel-control-next{
+    margin-top: 130px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+ 
+
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 25px;
+ 
+  font-weight: bolder;
+  color: rgb(255, 0, 0);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1024px) {
+    .community-slider{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .community-slider{
+       width: 700px;
+       margin-left: 30px;
+    }
+    .para1{
+        height: 800px;
+    }
+    .community{
+        height: 600px;
+    }
+    .community h1{
+        font-size: 100px;
+        margin-top: 100px;
+    }
+    .projects{
+        margin-left: 0;
+        
+    }
+    .projects img{
+        height: 250px;
+    }
+    .projects h3{
+        font-size: 35px;
+    }
+}
+@media (max-width: 600px){
+    .community h1{
+        font-size: 58px;
+        margin-left: 0;
+    }
+    .health h1{
+        font-size: 25px;
+        margin-left: 0;
+    }
+    .projects{
+        margin-right: 70px;
+    }
+}
+@media (max-width: 500px){
+    .para1{
+        height: 1150px;
+    }
+    .community-slider{
+        width: 350px;
+    }
+    .para1 p{
+        font-size: 12px;
+    }
+    .community h1{
+        font-size: 50px;
+    }
+    .health p{
+        margin-left: 0;
+    }
+}
+@media(min-width: 1920px){
+    .project {
+        margin-left: 600px;
+        width: 1200px;
+    }
+    .testimonials p{
+        font-size: 20px;
+
+    }
+}

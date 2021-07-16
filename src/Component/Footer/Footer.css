@@ -1,5 +1,5 @@
 .footers{
-    height: 70vh;
+    height: 30vh;
     margin-top: 100px;
     background: rgb(255, 255, 255);
 } 
@@ -8,6 +8,7 @@
     font-weight: 400;
     margin-left: 130px;
     font-size: 60px;
+    text-transform: uppercase;
     margin-right: 30px;
     font-family: 'Poppins';
 
@@ -22,7 +23,7 @@
 }
 .footers h5{
     font-size: 25px;
-    margin-left: 170px;
+    margin-left: 165px;
     font-family: 'Poppins';
     font-weight: 500;
 }
@@ -48,6 +49,7 @@
 }
 .footers ul{
     list-style: none;
+    margin-left: -40px;
     
 }
 .footers ul li{
@@ -57,7 +59,8 @@
 }
 .footers .newsletter {
     margin-top: 50px;
-    margin-left: 420px;
+    margin-left: 450px;
+    margin-bottom: 50px;
     
 }
 .footers .newsletter h5{
@@ -103,6 +106,7 @@
     box-shadow: inset 350px 0 0 0 #000;
     color: #fff;
 }
+
 @media (max-width: 1024px){
     .footers{
         height: 45vh;
@@ -203,7 +207,8 @@
         margin-bottom: 100px;
         }
     .footers .newsletter{
-        margin-left: -150px;
+        margin-left: -180px;
+        
         
     }
     
@@ -215,4 +220,47 @@
         margin-top: 0;
     }
     
+}
+@media (max-width: 500px){
+    .footers{
+        height: 90vh;
+    }
+    .line-footer{
+        display: none;
+    }
+    .footers .text h3{
+        font-size: 45px;
+       text-align: center;
+    }
+    .footers h5{
+        text-align: center;
+        margin-bottom: 100px;
+        }
+    .footers .newsletter{
+        margin-left: -180px;
+        
+    }
+    
+    .footers input{
+        margin-left: 280px;
+    }
+    .footers .button{
+        margin-left: 280px;
+        margin-top: 0;
+    }
+    
+}
+
+@media (max-width: 1440px){
+    .footers .newsletter{
+        margin-left: 380px;
+    }
+}
+@media (min-width: 1920px ){
+    .footers .newsletter{
+        margin-left: 670px;
+    }
+    .footers{
+        height: 20vh;
+    }
 }

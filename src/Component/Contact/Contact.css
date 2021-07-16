@@ -20,14 +20,14 @@
 }
 .contact .boxs{
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 0px;
     background: #fff;
     box-shadow: 0 0 0 1px #a0a3a5;
     border: none;
     font-family: 'Poppins';
     position: relative;
     padding: 60px 10px;
-    width: 900px;
+    width: 550px;
     height: 650px;
     z-index: 0;
     transition: all 0.2s linear;
@@ -41,7 +41,7 @@
 }
 .contact .boxs .box_contents input{
     width: 500px;
-    margin-left: 100px;
+   
     margin-bottom: 50px;
     font-family: 'Poppins';
     outline: none;
@@ -51,7 +51,7 @@
 }
 .contact .boxs .box_contents textarea{
     width: 500px;
-    margin-left: 100px;
+    margin-left: 0px;
     height: 200px;
     resize: none;
     font-weight:600 ;
@@ -66,6 +66,22 @@ line-height: 1.4rem;
 margin: 0;
 font-size: 18px;
 
+
+}
+
+
+.contact h2{
+    margin-top: 100px;
+    font-family: 'Poppins';
+    font-size: 45px ;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+
 }
 .contact .btn-news .btn1{
         text-align: center;
@@ -74,41 +90,139 @@ font-size: 18px;
         padding: 10px 25px;
         border: 2px solid #000;
         box-shadow: inset 0 0 0 0 #000;
-        transition: all .5s linear;
+        transition: all .2s ease-in-out;
         opacity: 1;
-        margin-left: 130px;
+        margin-left: 30px;
 
 }
-.contact .boxs:hover  .btn-news .btn1{
+.btn-news .btn1:hover{
         
-        transform: translateY(0);
+        
         cursor: pointer;
-        box-shadow: inset 145px 0 0 0 #000;
-        color: #fff;
+        box-shadow: inset 165px 0 0 0 #000;
+        
+}
+.calender{
+    margin-top: 100px;
+}
+.event-date{
+    background: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-style: italic;
+    color: #fff;
+    font-size: 28px;
+}
+.event-date h4{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.event-details{
+    background: rgba(148, 136, 136, 0.158);
+    height: 200px;
+    
+    box-shadow: inset 0 0 0 0 #efefef;
+}
+.event-details h4{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+.event-details h6{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.testimonials{
+    margin-top: 200px;
+    font-family: 'Poppins';
+    width: 1000px;
+    margin-left: 220px;
+    margin-bottom: 200px;
+}
+.testimonials h1{
+    font-weight: 900;
+    font-size: 100px;
+}
+.testimonials p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sponsorship{
+    margin-left: 200px;
+}
+.sponsorship img{
+    height: 150px;
+   
+  
+}
+@media (max-width: 1440px){
+    .testimonials {
+        margin-left: 280px;
+    }
 }
 
 @media (max-width:1024px){
+    .date-events{
+        flex-direction: column;
+    }
     .contact .boxs{
-        margin-left: 20px;
+        margin-left: -50px;
+    }
+    .testimonials{
+        margin-left: 180px;
+        width: 700px;
+    }
+    .event-details{
+        width: 500px;
+    }
+    .calender{
+        margin-left: 70px;
     }
 }
 @media (max-width: 768px){
-    .contact.boxs{
-        margin-left: 0;
+    .contact-navbar{
+        height: 600px;
+    }
+    .contact-navbar h1{
+        font-size: 100px;
+    }
+    .calender{
+        margin-left: 0px;
+    }
+    .contact .boxs{
+        margin-left: -100px;
+        width: 600px;
+    }
+    .date-events{
+        flex-direction: column;
+    }
+    .testimonials{
+        margin-left: 30px;
         width: 700px;
     }
+    .event-details{
+        background: rgba(148, 136, 136, 0.158);
+        height: 200px;
+        width: 400px;
+        
+        box-shadow: inset 0 0 0 0 #efefef;
+    }
+    
 }
 @media (max-width: 600px){
     .contact-navbar h1{
-        font-size: 80px;
+        font-size: 70px;
     }
     .contact .boxs{
-        margin-left: 10px;
-        width: 400px;
+        margin-left: 30px;
+        width: 350px;
     }
     .contact .boxs .box_contents input{
         width: 200px;
-        margin-left: 50px;
+        margin-left: 10px;
         margin-bottom: 50px;
         font-family: 'Poppins';
         outline: none;
@@ -118,9 +232,83 @@ font-size: 18px;
     }
     .contact .boxs .box_contents textarea{
         width: 200px;
-        margin-left: 50px;
+        margin-left: 10px;
         height: 200px;
         resize: none;
      
 }
+.testimonials{
+    width: 350px;
+    margin-left: 50px;
+}
+.sponsorship{
+    margin-left: 30px;
+}
+.sponsorship img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+}
+.sponsorship .logo1{
+    margin-left: 80px;
+}
+.contact h2{
+    font-size: 35px;
+}
+.event-details{
+    width: 250px;
+}
+}
+@media (max-width: 500px){
+    .contact-navbar h1{
+        font-size: 70px;
+    }
+    .contact .boxs{
+        margin-left: 10px;
+        width: 350px;
+    }
+    .contact .boxs .box_contents input{
+        width: 200px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        font-family: 'Poppins';
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #000;
+        font-weight:600 ;
+    }
+    .contact .boxs .box_contents textarea{
+        width: 200px;
+        margin-left: 10px;
+        height: 200px;
+        resize: none;
+     
+}
+.testimonials{
+    width: 350px;
+    margin-left: 20px;
+}
+.sponsorship{
+    margin-left: 30px;
+}
+.sponsorship img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+}
+.sponsorship .logo1{
+    margin-left: 80px;
+}
+.contact h2{
+    font-size: 35px;
+}
+.event-details{
+    width: 250px;
+}
+}
+@media (min-width: 1920px){
+    .coach{
+        margin-left: 450px;
+        width: 1000px;
+    }
 }

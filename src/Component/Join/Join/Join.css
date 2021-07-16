@@ -27,7 +27,19 @@
     justify-content: center;
 }
 
-
+.martial-arts{
+    width: 50%;
+    background-image: url(../../../image/karate.jfif);
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 600px;
+    width: 550px;
+    margin-left: 200px;
+    transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
+}
 .left{
     width: 50%;
     background-image: url(../../../image/27Yoy53ty915jjw2-4k43pqxxnoxY7dTcoHg8zM6SI0eJxFPc.jfif);
@@ -38,6 +50,8 @@
     width: 550px;
     margin-left: 200px;
     transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
 }
 .left1{
     width: 50%;
@@ -49,9 +63,11 @@
     width: 550px;
     margin-left: 200px;
     transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
     
 }
-.left:hover{
+.left:hover, .martial-arts:hover{
     transform: translateX(-20px);
     filter: grayscale(0);
     cursor: pointer;
@@ -87,6 +103,7 @@
     z-index: 10;
     transition: all 0.5s linear;
 }
+
 
 .right1{
     width: 50%;
@@ -170,6 +187,7 @@
     }
     .line1{
         margin-top: 100px;
+        margin-left: 280px;
     }
     .performance{
         margin-top: 100px;
@@ -179,7 +197,7 @@
     .line1{
         margin-left: 100px;
     }
-    .left,.left1{
+    .left,.left1, .martial-arts{
         margin-left: 0;
         width: 50%;
     }
@@ -210,17 +228,19 @@
     .containers{
         flex-direction: column;
     }
-    .left,.left1{
+    .left, .left1 , .martial-arts{
+        margin-bottom: 50px;
         width: 80%;
         margin-left: 0;
     }
     .right{
+        margin-top: 50px;
         width: 70%;
         margin-left: 0;
         margin-top: -150px;
     }
     .right1{
-        margin-top: 0;
+        margin-top: 50px;
         margin-left: 0;
         margin-right: 0;
         width: 70%;
@@ -266,7 +286,7 @@
     }
 }
 @media (max-width: 600px){
-    .left, .left1{
+    .left, .left1, .martial-arts{
         width: 95%;
         margin-left: 0px;
         margin-top: 100px;
@@ -292,7 +312,7 @@
         height: 700px;
     }
     .join h1{
-        font-size: 100px;
+        font-size: 90px;
     }
     .main-section h1{
         font-size: 22px;
@@ -306,7 +326,7 @@
         margin-left: 30px;
     }
     .football h3, .football p, .football .btn, .cricket h3, .cricket p, .cricket .btn{
-        margin-left: 30px;
+      
         margin-bottom: 50px;
     }
     .performance {
@@ -320,5 +340,14 @@
     .football h3{
         font-size: 45px;
         font-weight: 600;
+    }
+}
+@media (min-width: 1920px){
+    .cricket{
+        margin-left: 600px;
+    }
+    .line1{
+        width: 800px;
+        margin-left: 850px;
     }
 }

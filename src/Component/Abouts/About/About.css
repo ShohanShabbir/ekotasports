@@ -15,7 +15,7 @@
 }
 @media (max-width:768px){
     .abouts{
-        height: 700px;
+        height: 600px;
     }
     .overlay h1{
         font-size: 100px;
@@ -23,6 +23,6 @@
 }
 @media (max-width: 600px){
     .overlay h1{
-        font-size: 80px;
+        font-size: 62px;
     }
 }

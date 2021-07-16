@@ -14,6 +14,8 @@ import {
 import Football from './Component/Join/Football/Football';
 import Cricket from './Component/Join/Cricket/Cricket';
 import Contact from './Component/Contact/Contact';
+import News from './Component/News/News';
+import Community from './Component/Community/Community';
 
 function App() {
   return (
@@ -38,8 +40,14 @@ function App() {
           <Route path="/cricket">
               <Cricket></Cricket>
           </Route>
+          <Route path="/news">
+              <News></News>
+          </Route>
           <Route path="/contact">
               <Contact></Contact>
+          </Route>
+          <Route path="/community">
+              <Community></Community>
           </Route>
           <Route exact path="/">
               <Home></Home>

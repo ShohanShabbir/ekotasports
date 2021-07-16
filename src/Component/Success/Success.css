@@ -33,6 +33,18 @@
     .success{
         margin-top: 200px;
     }
+    .success .education h5 {
+        margin-left: 30px;
+        margin-right: 455px;
+    }
+    .success .karate h5{
+        margin-left: 30px;
+        margin-right: 440px;
+    }
+    .success .crickets h5{
+        margin-left: 30px;
+        margin-right: 430px;
+    }
 }
 
 @media (max-width: 1024px){
@@ -73,7 +85,7 @@
 @media (max-width: 600px){
     
     .success{
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .success .education h5 {
         

@@ -1,6 +1,6 @@
 .about{
     height: 100vh;
-    margin-top: 400px;
+    margin-top: 200px;
     margin-bottom: 100px;
     font-family: 'Poppins';
 }
@@ -43,13 +43,23 @@
     font-size: 24px;
 }
 .about .btn{
-    background: #ff0028;
+    background: #e15430;
+    text-decoration: none;
+    color: #fff;
     padding: 12px 25px;
+    transition: all 0.5 linear;
+    
+    outline: none;
+}
+.about .btn:hover{
+    background: transparent;
+    border: 2px solid #e15430;
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width:  1366px){
     .about{
-        margin-top: 150px;
+        margin-top: 350px;
         
     }
 }
@@ -62,25 +72,46 @@
 @media (max-width: 1024px){
     
     .about{
-        margin-top: 550px;
+        height: 170vh;
+        margin-top: 320px;
         margin-bottom: 0;
     }
+   
 }
 
 @media (max-width: 768px){
     .about{
-        
-        margin-top: 550px;
+        height: 220vh;
+        margin-top: 220px;
         margin-bottom: 0;
+    }
+   
+}
+@media (max-width: 600px){
+    .about{
+        height: 200vh;
+        
+    }
+    .about h1{
+        font-size: 25px;
+        margin-top: 500px;
+        margin-left: 10px;
     }
 }
 @media (max-width: 500px){
     .about{
-        height: 250vh;
-        margin-top: 25 0px;
+        height: 390vh;
+        margin-top: 50px;
     }
     .about h1{
         font-size: 25px;
         margin-left: 10px;
+    }
+}
+
+@media (min-width: 1920px){
+    .about{
+        margin-top: 300px;
+        height: 70vh;
     }
 }

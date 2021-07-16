@@ -5,9 +5,11 @@ import twitter from '../../image/043-twitter.png';
 import instagram from '../../image/025-instagram.png';
 import youtube from '../../image/011-youtube.png';
 import './Footer.css';
+import Fade from  'react-reveal/Fade';
 
 const Footer = () => {
     return (
+        <Fade bottom>
         <div className="footers ">
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center">
@@ -16,7 +18,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-4 text">
                         <h3>Ekota</h3>
-                        <h5>Sports</h5>
+                        <h5>Academy</h5>
                     </div>
                     <div className="col-md-4"><div className="line-footer"></div></div>
                 </div>
@@ -40,18 +42,19 @@ const Footer = () => {
                     <div className="col-md-4 col-sm-6 detail-section">
                         <h6 className="mb-3"> <a href="#">Cookies policy</a> </h6>
                         <h6 className="mb-3"><a href="#">News & Events</a></h6>
-                        <h6><a href="#">About</a></h6>
+                        <h6><a href="#">Sports</a></h6>
                     </div>
                 </div>
             </div>
-            <div className="newsletter">
+            {/* <div className="newsletter">
                 <h5>WEEKLY NEWSLETTER</h5>
                 <input type="text" required="required" placeholder="Name@gmail.com" /> <br />
                 <a href="#" className="button">Subscribe</a>
 
-            </div>
+            </div> */}
 
         </div>
+        </Fade>
     );
 };
 

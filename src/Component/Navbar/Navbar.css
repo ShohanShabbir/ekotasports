@@ -1,61 +1,87 @@
 .menubar{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 
 }
 .menubar ul{
-    margin-left: 350px;
+    margin-left: 200px;
+    
     
 }
 .menubar ul a{
     text-decoration: none;
     transition: all 0.5s linear;
+    margin-left: 5px;
+    font-weight: 500;
+    
 }
 .menubar ul a:hover{
-    
-    transform: translateX(-5px);
-    
+    transform: translateY(15px);   
 }
 .menubar ul .icon{
     margin-left: 200px;
+    margin-top: 20px;
     
 }
 .menubar ul .icon .btn{
-    background: #ff0028;
+    
     padding: 5px 10px;
-    color: #fff;
+    color: rgb(255, 254, 254);
     margin-left: 20px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .menubar a img{
-    height: 50px;
+    height: 150px;
     margin-left: 10px;
+    
    
     
 }
+.nav-line{
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    width: 100%;
+   background-color: #fff;
+}
+
+
 @media (max-width: 1440px){
+    .menubar ul{
+        margin-left: 170px;
+    }
     .menubar ul .icon .btn{
-        background: #ff0028;
+        
         padding: 5px 10px;
         color: #fff;
         margin-left: 10px;
+        font-size: 12px;
+    }
+    .menubar{
         font-size: 14px;
     }
 }
 
-@media (max-width: 1366px){
-    .menubar ul {
-        margin-left: 280px;
-    }
-}
+
 @media (max-width: 1024px){
+
+   
     .menubar ul .icon{
-        margin-left: 100px;
+        margin-left: 80px;
+    }
+    .menubar ul li a{
+        font-size: 12px;
     }
     .menubar ul{
         margin-left: 80px;
+        
     }
+    .menubar a img{
+        height: 100px;
+    }
+
 }
 @media (max-width: 768px){
     .menubar ul{
@@ -76,14 +102,18 @@
     }
     .menubar ul .icon .btn{
         padding: 4px 8px;
-        font-size: 14px;
+       
+        margin-left: 0;
+        
 
     }
+    
     .menubar ul .icon{
         margin-left: 0x;
+       
     }
     .menubar ul a:hover{
-        border-bottom: 2px solid #ff0028;
+        
         transform: translateX(-5px);
         width: 70px;
         
@@ -94,6 +124,31 @@
     }
     .menubar ul .icon .img{
         margin-left: 0;
-        margin-right: 250px;
+        
+    }
+}
+@media (min-width: 1920px){
+    .menubar ul {
+        margin-left: 350px;
+    }
+    .menubar{
+        font-size: 16px;
+    }
+  
+    .menubar ul .icon{
+        margin-left: 400px;
+    }
+    .menubar ul .icon .btn{
+        font-size: 24px;
+    }
+  
+    
+}
+@media (min-width: 2560px){
+    .menubar ul{
+        margin-left: 580px;
+    }
+    .menubar{
+        font-size: 24px;
     }
 }

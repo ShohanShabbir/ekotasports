@@ -24,17 +24,35 @@
    
 }
 .description .btn{
-    background: #ff0028;
+    background: #e15430;
+    text-decoration: none;
+    color: #fff;
     padding: 12px 25px;
+    transition: all 0.5s linear;
+    
+    outline: none;
+}
+.description .btn:hover{
+    background: transparent;
+    border: 2px solid #e15430;
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 1440px){
+    .banner{
+        height: 60vh;
+    }
 }
 @media (max-width: 1024px){
     .banner{
-        height: 50vh;
+        height: 100vh;
     }
 }
 @media (max-width: 768px){
     .banner{
         height: 50vh;
+        margin-bottom: 300px;
         margin-top: 0;
     }
 }
@@ -55,7 +73,13 @@
 }
 @media (max-width: 475px){
     .banner{
-        height: 800px;
+        margin-top: 0;
+        height: 500px;
         width: 425px;
+    }
+}
+@media (min-width: 1920px){
+    .banner{
+        height: 50vh;
     }
 }

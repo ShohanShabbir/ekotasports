@@ -5,24 +5,30 @@ import pictures1 from '../../../image/_6eXHo5z9xPNbksmoSg59VGOOgJti88zwJlE0ko3Tz
 import pictures2 from '../../../image/MZgeGYnnxdc73At89dvvAAvrDl2EVQ7GtrVsPPP1Ja4eJxFPc.jfif';
 import './Football.css';
 import Footer from '../../Footer/Footer';
+import Fade from 'react-reveal/Fade';
 
 const Football = () => {
     return (
         <div>
             <div className="navbar_background">
                 <Navbar></Navbar>
+                <Fade left cascade>
                 <h1>Football.</h1>
+                </Fade>
             </div>
 
             <div className="foundation">
                 <div className="container">
                     <div className="row d-flex justify-content-center align-items-center">
                         <div className="col-md-5">
+                            <Fade left>
                             <figure className="images">
                                 <img className="img-fluid " src={pictures} alt="" />
                             </figure>
+                            </Fade>
                         </div>
                         <div className="col-md-7 foundation1">
+                            <Fade right>
                             <h3>Foundation Programme.</h3>
                             
                             <p>
@@ -31,6 +37,7 @@ const Football = () => {
                                 This is designed to provide a basic introduction to the game of football, focusing on developing the movement and skills needed for becoming a footballer. Fair play, team spirit and discipline are just a few of the many values taught during these sessions.
 
                             </p>
+                            </Fade>
                             <a href="#" class="btn">Express Your Interest</a>
                         </div>
                     </div>
@@ -41,6 +48,7 @@ const Football = () => {
                     <div className="row d-flex justify-content-center align-items-center">
 
                         <div className="col-md-7">
+                        <Fade left>
                             <h3>Intermediate programme. </h3>
                             
                             <p>
@@ -50,12 +58,15 @@ const Football = () => {
 
 
                             </p>
+                            </Fade>
                             <a href="#" class="btn">Express Your Interest</a>
                         </div>
                         <div className="col-md-5">
+                        <Fade right>
                             <figure className="images">
                                 <img className="img-fluid " src={pictures1} alt="" />
                             </figure>
+                            </Fade>
                         </div>
                     </div>
                 </div>
@@ -64,11 +75,14 @@ const Football = () => {
                 <div className="container">
                     <div className="row d-flex justify-content-center align-items-center">
                         <div className="col-md-5">
+                            <Fade left>
                             <figure className="images">
                                 <img className="img-fluid " src={pictures2} alt="" />
                             </figure>
+                            </Fade>
                         </div>
                         <div className="col-md-7 foundation1">
+                            <Fade right>
                             <h3>Advance Programme.</h3>
                            
                             <p>
@@ -78,6 +92,7 @@ const Football = () => {
 
 
                             </p>
+                            </Fade>
                             <a href="#" class="btn">Express Your Interest</a>
                         </div>
                     </div>

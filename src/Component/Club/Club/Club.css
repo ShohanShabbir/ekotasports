@@ -1,8 +1,9 @@
 .club-background{
     background: url(../../../image/ZQgXhC84UabKkGfmeXpsDnR3q8jBok0ZJIJUkXQ86FoeJxFPc.jfif);
-    height: 500px;
+    height: 70vh;
     background-size: cover;
     font-family: 'Poppins';
+    
 }
 
 .club-background h1{
@@ -12,30 +13,14 @@
     color: #fff;
     margin-top: 80px;
     margin-left: 50px;
+    
 }
 .div{
     height: 300px;
     width: 900px;
     margin-left: 300px;
 }
-.aims-button{
-    
-    margin-left: 18px;
-    text-decoration: none;
-    width: 350px;
-    padding: 10px 100px;
-    border-radius:0;
-    font-family: 'Poppins';
-    background: #fff;
-    color: #000;
-    border: 1px solid #000;
-    transition: all 1s ease-out;
-    box-shadow: inset 0 0 0 0 #000;
-}
-.aims-button:hover{
-    box-shadow: inset 350px 0 0 0 #000;
-    color: #fff;
-}
+
 .management-button{
     
     margin-left: 26px;
@@ -55,31 +40,37 @@
     box-shadow: inset 350px 0 0 0 #000;
     color: #fff;
 }
-.club-background .aims h3{
-    margin-top: 200px;
-    font-size: 55px;
-    font-weight: 600;
-    margin-left: 100px;
-    
-}
 
-.aims ul li{
-    margin-top: 17px;
-    font-weight: 500;
-    font-size: 14px;
-    text-align: left;
-}
-.management h3, .staff h3, .volunteers h3, .governance h3, .news h3{
-    margin-top: 100px;
+
+.staff h3{
+    margin-top: 200px;
     font-size: 45px;
     font-weight: 600;
     margin-left: 100px;
 }
-.management p , .staff p, .volunteers p, .governance p{
+.staff h6, .management h6{
+    text-align: right;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: italic;
+    
+}
+.div img{
+    height: 100px;
+    margin-left: 700px;
+}
+.management h3, .news h3{
+    margin-top: 200px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+  
+}
+.management p , .staff p{
     margin-left: 30px;
     margin-top: 30px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 2rem;
 }
 .events h3{
@@ -87,108 +78,51 @@
     font-weight: 600;
     margin-left: 100px;
 }
-.boxs{
-        margin-top: 100px;
-        background: #fff;
-        box-shadow: 0 0 0 1px #a0a3a5;
-        font-family: 'Poppins';
-        position: relative;
-        padding: 60px 10px;
-        z-index: 0;
-        transition: all 0.2s linear;
-    
-}
-.boxs:hover{
-    z-index: 1;
-    box-shadow: 0px 8px 50px rgba(0,0,0,0.2);
-    transform: scale(1.05);
-    cursor: pointer;
-}
-.boxs .avatars{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-size: cover;
-    overflow: hidden;
-    margin: 0 auto 20px;
-}
-.boxs .box_contents{
-    margin: 30px 30px;
-   
-}
-.boxs .box_contents .title{
-    font-weight: 600;
-    line-height: 1.4rem;
-    margin: 0;
-    font-size: 18px;
-    
-}
-.btn-news .btn1{
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    padding: 10px 25px;
-    border: 2px solid #000;
-    box-shadow: inset 0 0 0 0 #000;
-    transition: all .5s linear;
-    opacity: 0;
-    margin-left: 200px;
-    
-}
-.boxs:hover  .btn-news .btn1{
-    opacity: 1;
-    transform: translateY(0);
-    cursor: pointer;
-    box-shadow: inset 145px 0 0 0 #000;
-    color: #fff;
-}
-@media (max-width: 1440px){
-    .btn-news .btn1{
-        margin-left: 30px;
-    }
-}
 
-@media (max-width: 1024px){
-    .div{
-        margin-left: 50px;
-        width: 900px;
-        height: 350px;
-    }
-    .club-background .aims h3{
-        margin-left: 15px;
-    }
-    .management h3, .staff h3{
-        margin-left: 10px;
-    }
-    .news .image{
-        height: 250px;
-        width: 250px;
-        overflow: hidden;
-        border-radius:20px ;
-    }
-    .news img{
-        height: 250px;
-        width: 250px;
-        object-fit: cover;
-        border-radius: 20px;
-       
-        transition: all 2s linear;
-    }
-    .management p , .staff p, .volunteers p, .governance p{
+ .management p , .staff p, .volunteers p, .governance p{
        font-size: 15px;
     }
+.teams h2{
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 600;
+   
+}
+@media(max-width: 1024px){
+    .club-background{
+        height: 550px;
+    }
+   
+    .club-background h1{
+        font-size: 150px;
+       
+    }
+    .div{
+        margin-left: 90px;
+    }
+   
 }
 @media(max-width: 768px){
+   
+    
+    .club-background h1{
+        margin-top: 100px;
+        font-size: 110px;
+    }
     .div{
         margin-left: 50px;
         width: 700px;
         height: 350px;
     }
+    .div img{
+        margin-left: 500px;
+    }
     .club-background .aims h3{
         margin-left: 15px;
     }
     .club-background{
-        height: 500px;
+        height: 600px;
+       
         
     }
     .lines{
@@ -202,8 +136,8 @@
         height: 210px;
         width: 210px;
     }
-     .management h3, .staff h3, .volunteers h3, .governance h3, .news h3{
-        margin-top: 100px;
+     .management h3{
+        margin-top: 400px;
         font-size: 30px;
         font-weight: 600;
         margin-left: 20px;
@@ -231,15 +165,16 @@
 }
 @media (max-width: 600px){
     .club-background h1{
-        font-size: 140px;
+        margin-top: 200px;
+        font-size: 76px;
         margin-left: 0;
     }
 
     .club-background{
-        height: 700px;
+        height: 600px;
     }
     .club-background .aims h3{
-        margin-top: 450px;
+        margin-top: 500px;
         font-size: 30px;
         
     }
@@ -277,7 +212,15 @@
         font-size: 14px;
         margin-left: 10px;
     }
-    .management h3, .staff h3, .volunteers h3, .governance h3, .news h3{
+    .div img{
+        margin-left: 300px;
+        height: 50px;
+
+    }
+    .management h3{
+        margin-top: 250px;
+    }
+     .staff h3, .volunteers h3, .governance h3, .news h3{
         margin-top: 50px;
         font-size: 25px;
         font-weight: 600;
@@ -297,4 +240,31 @@
          margin-left: 40px;
      }
 
+}
+@media (min-width: 1920px){
+    .management h3{
+        margin-top: 400px;
+    }
+    .staff h3{
+        margin-left: 200px;
+    }
+    .management{
+        margin-left: 50px;
+    }
+    .div{
+        width: 1200px;
+        margin-left: 670px;
+    }
+    .management p{
+        font-size: 26px;
+        line-height: 2.5rem;
+    }
+    .staff p{
+        font-size: 26px;
+        line-height: 2.5rem;
+        margin-left: 60px;
+    }
+    .teams h2{
+        margin-left: 180px;
+    }
 }
