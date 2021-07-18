@@ -165,3 +165,8 @@
 
     }
 }
+@media(min-width: 2560px){
+    .community-slider{
+        margin-left: 700px;
+    }
+}

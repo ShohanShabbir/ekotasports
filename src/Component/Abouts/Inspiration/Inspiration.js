@@ -1,16 +1,14 @@
 import React from 'react';
-import pic from '../../../image/Group 1.png';
-import pic2 from '../../../image/Group 2.png';
-import pic3 from '../../../image/Group 3.png';
-import seal from '../../../image/seal-01.png';
+
 import Testimonial from '../Testimonial/testimonial';
-import pictures from '../../../image/WhatsApp Image 2021-07-07 at 11.23.27.jpeg';
+
 import facebook from '../../../image/021-facebook.png';
 import twitter from '../../../image/043-twitter.png';
 import instagram from '../../../image/025-instagram.png';
 import Footer from '../../Footer/Footer';
 import Bounce from 'react-reveal/Bounce';
 import cross from '../../../image/cross-sign.png'
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -30,7 +28,7 @@ const Inspiration = () => {
                     <Bounce right cascade>
                         <div className="right">
                             <div className="content">
-                                <h2>Values.</h2>
+                                <h2 className="mb-4">Values.</h2>
                                 <h4 className="mb-3" style={{ color: '#e15430', fontWeight: '600' }} >What Does Ekota Mean.</h4>
                                 <p className="mb-5">The word Ekota in Sanskrit means “Unity” and in Cree, it means “The place to be”, we aim to achieve both of these things by unifying the community and by providing a positive environment where children and adults can thrive, access opportunities, connect and improve their physical and mental well-being.
                                 </p>
@@ -41,10 +39,13 @@ const Inspiration = () => {
                 </div>
 
             </div>
-
+            
             <div className="container text-center academy">
-                <h1>Ekota Academy</h1>
+               <Fade left cascade>
+                   <h1>Ekota Academy</h1>
                 <h2>Who are we?</h2>
+                </Fade> 
+                <Fade left>
                 <div className="para">
                 <h1> &#8221;</h1>
                 <p>Ekota originally started with a sporting focus but has expanded into a social movement.
@@ -56,6 +57,7 @@ const Inspiration = () => {
                     Our ethos is to encourage all who are involved with our organisation to adhere to behaviours, which centre on respect and unity.
                 </p>
                 </div>
+                </Fade>
              
             </div>
 
@@ -67,12 +69,12 @@ const Inspiration = () => {
                     <Bounce left>
                         <div className="rights1">
                             <div className="content">
-                                <h2>Mission & Aims.</h2>
+                                <h2 className="">Mission & Aims.</h2>
 
-                                <h4 style={{ color: '#e15430', fontWeight: '600' }} >The student-athlete at the heart of everything we do.</h4>
-                                <p className="mb-5">Our aim is to bring communities together, nurture and support individuals and groups to flourish and to continue to give back to create a cycle of success.  At our heart is the message of being resilient, unique, and connected.
+                                <h4 className="" style={{ color: '#e15430', fontWeight: '600' }} >The student-athlete at the heart of everything we do.</h4>
+                                <p className="">Our aim is to bring communities together, nurture and support individuals and groups to flourish and to continue to give back to create a cycle of success.  At our heart is the message of being resilient, unique, and connected.
                                 </p>
-                                <a href="#" class="discover-btn">Discover  More</a>
+                               
                             </div>
                         </div>
                     </Bounce>
@@ -81,7 +83,25 @@ const Inspiration = () => {
                     </Bounce>
                 </div>
             </div>
-
+            <div className="container text-center academy">
+                <Fade left cascade>
+                <h1>Our Mission & Aims</h1>
+                </Fade>
+                <Fade left>
+                <div className="para">
+                <h1> &#8221;</h1>
+                <ul style={{textAlign:'left'}} >
+                    <li className="mb-3">	To operate as virtual and physical health and well-being community hub. This would include receiving and delivering on social prescribing referrals to help tackle inequalities and a range of societal issues from childhood obesity to loneliness</li>
+                    <li className="mb-3">	To deliver sporting activities to increase participation in sport for young people and adults at all levels to support improved physical and mental well-being.</li>
+                    <li className="mb-3">	To lead on grassroots activities to create a foundation to nurture future sporting talent and provide opportunities for progression for individuals with the potential and interest in pursuing their sporting ambitions. </li>
+                    <li className="mb-3">	To be a voice and support local community integration to ensure that no groups are excluded and that communities connect to understand their commonalities through sport and other activities.</li>
+                    <li className="mb-3">	Increase female involvement in sport, leadership roles and empower women from all backgrounds. </li>
+                    <li className="mb-3">	Ensure the resilience and leadership capabilities of future generations through mentoring, coaching and leadership development. </li>
+                </ul>
+                </div>
+                </Fade>
+             
+            </div>
 
             <div className="action" onClick={action}>
 
@@ -120,18 +140,16 @@ const Inspiration = () => {
                         </div>
                     </div>
                     <div className="container-fluid subscribe mt-5">
-                        <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-md-4 icon">
+                      <div className="row d-flex justify-content-center">
+                      <div className="col-md-4 icon ">
                               <div className="row d-flex justify-content-center align-items-center">
-                                  <div className="col-md-4">
+                                  <div className="col-md-5">
                                       <h6>Follow Us On:</h6>
                                   </div>
-                                  <div className="col-md-8">
-                                      <ul>
-                                          <li> <img className="img-fluid "src={facebook} alt="" />  </li>
-                                          <li><img  className="img-fluid "src={instagram} alt="" /></li>
-                                          <li><img className="img-fluid "src={twitter} alt="" /></li>
-                                      </ul>
+                                  <div className="col-md-7">
+                                  <img className="img-fluid "src={facebook} alt="" />
+                                  <img className="img-fluid "src={instagram} alt="" />
+                                  <img className="img-fluid "src={twitter} alt="" />
                                   </div>
                               </div>
                           </div>
@@ -139,9 +157,9 @@ const Inspiration = () => {
                               <input style={{border: '1px solid #000'}} type="text" placeholder="Your Email" />
                               <a href="#" className="btn">Subscribe</a>
                           </div> */}
-
+                        
                       </div>
-                    </div>
+                  </div>
 
                 </div>
             </div>

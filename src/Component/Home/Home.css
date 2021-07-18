@@ -205,22 +205,39 @@
     .action span{
         font-size: 10px;
     }
-    .action .popup{
-        
-    }
+    
 }
 @media(max-width: 600px){
+
     .video{
         height: 100vh;
-    }
-    .popup{
-        flex-direction: column;
+       
+        object-fit: cover;
+       
     }
     .action .popup{
-        min-height: 250px;
-        min-width: 200px;
-        
-        margin-left: 0;
+        min-width: 438px;
+        height: 500px;
+        left: -300px;
+    }
+    .action{
+        flex-direction: column;
+    }
+    .action{
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+    }
+    .action .cross{
+        width: 25px;
+        height: 25px;
+        left: 15px;
+    }
+    .action .subscribe .icon h6{
+       display: none;
+    }
+    .action .subscribe .icon{
+        margin-right: -200px;
     }
     .action h5{
         margin-bottom: 0;
@@ -244,7 +261,7 @@
 }
 @media (min-width: 1920px){
     .video{
-        height: 90vh;
+        height: 100vh;
     }
     .action .popup{
         left: -2600px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../image/ekota academy white-01.png';
-import facebook from '../../image/021-facebook.png';
+
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 

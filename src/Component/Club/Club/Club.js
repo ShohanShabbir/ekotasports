@@ -26,6 +26,7 @@ const Club = () => {
                 </Fade>
 
             </div>
+
             <div className="management">
                 <Fade left cascade>
                     <h3 className="mb-5"> Trustees In Ekota.</h3>
@@ -45,6 +46,44 @@ const Club = () => {
                     </div>
                 </Fade>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className="action" onClick={action}>
 
                 <span className="text-center">Be a part of <br />  Unity</span>
@@ -81,27 +120,26 @@ const Club = () => {
                         </div>
                     </div>
                     <div className="container-fluid subscribe mt-5">
-                        {/* <div className="row d-flex justify-content-center align-items-center">
-                      <div className="col-md-8">
-                          <input style={{border: '1px solid #000'}} type="text" placeholder="Your Email" />
-                          <a href="#" className="btn">Subscribe</a>
-                      </div>
-                      <div className="col-md-4 icon">
-                          <div className="row d-flex justify-content-center align-items-center">
-                              <div className="col-md-4">
-                                  <h6>Follow Us On:</h6>
-                              </div>
-                              <div className="col-md-8">
-                                  <ul>
-                                      <li> <img className="img-fluid "src={facebook} alt="" />  </li>
-                                      <li><img  className="img-fluid "src={instagram} alt="" /></li>
-                                      <li><img className="img-fluid "src={twitter} alt="" /></li>
-                                  </ul>
+                      <div className="row d-flex justify-content-center">
+                      <div className="col-md-4 icon ">
+                              <div className="row d-flex justify-content-center align-items-center">
+                                  <div className="col-md-5">
+                                      <h6>Follow Us On:</h6>
+                                  </div>
+                                  <div className="col-md-7">
+                                  <img className="img-fluid "src={facebook} alt="" />
+                                  <img className="img-fluid "src={instagram} alt="" />
+                                  <img className="img-fluid "src={twitter} alt="" />
+                                  </div>
                               </div>
                           </div>
+                          {/* <div className="col-md-8">
+                              <input style={{border: '1px solid #000'}} type="text" placeholder="Your Email" />
+                              <a href="#" className="btn">Subscribe</a>
+                          </div> */}
+                        
                       </div>
-                  </div> */}
-                    </div>
+                  </div>
 
                 </div>
             </div>

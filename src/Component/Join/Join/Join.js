@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from '../../Navbar/Navbar';
 import './Join.css';
-import Banner from '../../Banner/Banner';
+
 import Footer from '../../Footer/Footer';
-import seal from '../../../image/seal-01.png';
+
 import facebook from '../../../image/021-facebook.png';
 import instagram from '../../../image/025-instagram.png';
 import twitter from '../../../image/043-twitter.png';
@@ -21,9 +21,9 @@ const Join = () => {
         <div>
             <div className="join">
                 <Navbar></Navbar>
-                <Bounce left cascade>
+                <Fade left cascade>
                 <h1>Sports.</h1>
-                </Bounce>
+                </Fade>
             </div>
 
             <div className="main-section">
@@ -70,27 +70,26 @@ const Join = () => {
                   </div>
               </div>
               <div className="container-fluid subscribe mt-5">
-                  {/* <div className="row d-flex justify-content-center align-items-center">
-                      <div className="col-md-8">
-                          <input style={{border: '1px solid #000'}} type="text" placeholder="Your Email" />
-                          <a href="#" className="btn">Subscribe</a>
-                      </div>
-                      <div className="col-md-4 icon">
-                          <div className="row d-flex justify-content-center align-items-center">
-                              <div className="col-md-4">
-                                  <h6>Follow Us On:</h6>
-                              </div>
-                              <div className="col-md-8">
-                                  <ul>
-                                      <li> <img className="img-fluid "src={facebook} alt="" />  </li>
-                                      <li><img  className="img-fluid "src={instagram} alt="" /></li>
-                                      <li><img className="img-fluid "src={twitter} alt="" /></li>
-                                  </ul>
+                      <div className="row d-flex justify-content-center">
+                      <div className="col-md-4 icon ">
+                              <div className="row d-flex justify-content-center align-items-center">
+                                  <div className="col-md-5">
+                                      <h6>Follow Us On:</h6>
+                                  </div>
+                                  <div className="col-md-7">
+                                  <img className="img-fluid "src={facebook} alt="" />
+                                  <img className="img-fluid "src={instagram} alt="" />
+                                  <img className="img-fluid "src={twitter} alt="" />
+                                  </div>
                               </div>
                           </div>
+                          <div className="col-md-8">
+                              <input style={{border: '1px solid #000'}} type="text" placeholder="Your Email" />
+                              <a href="#" className="btn">Subscribe</a>
+                          </div>
+                        
                       </div>
-                  </div> */}
-              </div>
+                  </div>
                
             </div>
         </div>
@@ -132,7 +131,7 @@ const Join = () => {
                 </div>
             </div>
             
-            <Banner></Banner>
+          
 
             <div className="football">
                 <div style={{ margin: '0', padding: '0', boxSizing: 'border-box' }} className="container containers" id="section">

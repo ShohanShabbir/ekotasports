@@ -60,7 +60,10 @@
         font-size: 12px;
     }
     .menubar{
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .menubar a img{
+        height:80px;
     }
 }
 

@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from '../../image/ekota sports.png';
 import facebook from '../../image/021-facebook.png';
 import twitter from '../../image/043-twitter.png';
 import instagram from '../../image/025-instagram.png';
-import youtube from '../../image/011-youtube.png';
+
 import './Footer.css';
 import Fade from  'react-reveal/Fade';
 

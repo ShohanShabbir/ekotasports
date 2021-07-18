@@ -1,7 +1,7 @@
 import React from 'react';
-import plus from '../../image/plus.png';
+
 import './Success.css';
-import Fade from 'react-reveal/Fade';
+
 
 const Success = () => {
 

@@ -7,13 +7,11 @@ const Header = () => {
     return (
         
         <div style={{fontFamily: 'Poppins'}} className="text-white header">
-            <Fade left cascade >
-            {/* <h6 className="mt-5">Hello It's</h6> */}
-            </Fade>
-            <Fade left >
+        
+            {/* <Fade left >
             <h1>Ekota</h1>
             <a href="#" className="btn btn-danger mt-4 header-btn">Express Your Interest</a>
-            </Fade>
+            </Fade> */}
         </div>
         
     );

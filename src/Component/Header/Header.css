@@ -1,11 +1,16 @@
 .header{
-    margin-top: 290px;
+    margin-top: 100px;
     margin-left: 60px;
 }
 .header h1{
  
-    font-size: 150px;
+    font-size: 350px;
     font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+    mix-blend-mode: overlay;
+    position: relative;
 }
 .header h6{
     font-size: 30px;

@@ -5,13 +5,13 @@ import About from '../../Component/About/About';
 import Banner from '../../Component/Banner/Banner';
 import Success from '../../Component/Success/Success';
 import Footer from '../../Component/Footer/Footer';
-import seal from '../../image/seal-01.png';
+
 import facebook from '../../image/021-facebook.png';
 import instagram from '../../image/025-instagram.png';
 import twitter from '../../image/043-twitter.png';
-import Fade from  'react-reveal/Fade';
+
 import cross from '../../image/cross-sign.png';
-import video from '../../video/website video.mp4';
+import video from '../../video/Comp 1.mp4';
 import './Home.css';
 
 const Home = () => {

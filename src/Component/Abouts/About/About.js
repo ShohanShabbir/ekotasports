@@ -2,16 +2,16 @@ import React from 'react';
 import Navbar from '../../Navbar/Navbar';
 import Inspiration from '../Inspiration/Inspiration';
 import './About.css';
-import Bounce from  'react-reveal/Bounce';
 
+import Fade from 'react-reveal/Fade';
 const About = () => {
     return (
         <div className="abouts ">
             <div className="overlay">
                 <Navbar></Navbar>
-                <Bounce left cascade>
+                <Fade left cascade>
                 <h1>ABOUt US.</h1>
-                </Bounce>
+                </Fade>
             </div>
             <Inspiration></Inspiration> 
 

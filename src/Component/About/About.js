@@ -1,5 +1,5 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+
 import image from '../../image/Rhns9QftfkRlWWBAri5rHBZArvxvEt4RygLPueojztEeJxFPc.jfif';
 import image1 from '../../image/w29AnzRvddYhL8qZM_tAO2mzE62pRWHp-AdFzPYC70seJxFPc.jfif';
 import image2 from '../../image/WlHzIft4vXCIj0hAebsU-4VivWE-w-eTwFB8qb1gevYeJxFPc.jfif';
