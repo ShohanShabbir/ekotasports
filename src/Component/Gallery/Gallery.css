@@ -1,0 +1,13 @@
+.gallery img{
+    object-fit: cover;
+    height: 400px;
+    cursor: pointer;
+    transition: 1s linear;
+}
+.gallery .card{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.gallery img:hover{
+    transform: scale(1.3);
+}

@@ -4,7 +4,18 @@
     z-index: -1;
     width: 100%;
     height: 100vh;
-    margin-bottom: 100vh;
+    
+}
+ .home-text{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 45px;
+    top: 600px;
+    position: absolute;
+    right: 580px;
+    text-shadow: 6px 6px 6px #000;
+    
 }
 
 .action{
@@ -52,7 +63,7 @@
     bottom: 0px;
     color: #fff;
     min-width: 1400px;
-    min-height: 330px;
+    min-height: 310px;
     opacity: 0;
   
     visibility: hidden;
@@ -115,14 +126,15 @@
     color: #fff;
 }
 .subscribe{
-    background: rgba(119, 116, 116, 0.137);
-    color: #000;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     height: 120px;
-    margin-top: 200px;
+    margin-top: 220px;
     font-family: 'Poppins';
+    border: 2px solid #000;
 }
 .action .subscribe input{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(207, 197, 197);
     margin-left: 600px;
     width: 400px;
     height: 40px;
@@ -134,15 +146,22 @@
     margin-right: 0px;
 }
 .action .subscribe .icon h6{
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-top:30px;
     font-size: 20px;
 }
 .action .subscribe .icon{
-    margin-right: 400px;
+    margin-right: 0px;
+}
+.partner-1 img{
+    height: 50px;
+    margin-top: 10px;
+    
+
+    object-fit: contain;
 }
 .action .subscribe .icon img{
-    filter: invert(1);
+    filter: invert(0);
     margin-bottom: 15px;
     margin-right: 30px;
     margin-top: 30px;
@@ -164,14 +183,26 @@
     .action .subscribe .icon h6{
         font-size: 16px;
     }
+
+    .home-text{
+        top: 500px;
+        right: 350px;
+    }
+
     
     
 }
 @media (max-width: 768px){
+
+    .home-text{
+        top: 500px;
+        right: 220px;
+    }
    
    .action .popup{
        min-width: 900px;
-       height: 250px;
+       margin-top: 80px;
+       height: 330px;
        bottom: -100px;
        left: -700px;
    }
@@ -190,7 +221,25 @@
     }
     .action .subscribe h6{
       font-size: 8px;
-      margin-left: 50px;
+      margin-left: 0px;
+      
+    }
+    .action .subscribe .icon h6{
+        font-size: 12px;
+        margin-top: 50px;
+        display: none;
+    }
+    .partner-1 img{
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .action .subscribe .icon img{
+        filter: invert(0);
+        margin-bottom: 15px;
+        margin-right: 30px;
+        margin-top: 50px;
+        height: 16px;
     }
 }
 @media (max-width: 1440px){
@@ -217,11 +266,11 @@
     }
     .action .popup{
         min-width: 438px;
-        height: 500px;
+        height: 800px;
         left: -300px;
     }
     .action{
-        flex-direction: column;
+        flex-direction: row;
     }
     .action{
         width: 70px;
@@ -257,6 +306,15 @@
         padding: 8px 10px;
         letter-spacing: 0px;
     }
+    .subscribe{
+        height: 500px;
+    }
+    .partner-1 img{
+        height: 40px;
+        margin-left: 50px;
+    }
+   
+
 
 }
 @media (min-width: 1920px){
@@ -276,4 +334,32 @@
         margin-right: 10px;
         font-family: 'Poppins';
     }
+    .home-text{
+        top: 800px;
+        left: 780px;
+    }
+}
+@media(max-width: 425px){
+    .home-text{
+        color: #fff;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 35px;
+        top: 600px;
+        position: absolute;
+        right: 0;
+        left: 50px;
+        text-shadow: 6px 6px 6px #000;
+        
+    }
+    .partner-1{
+        margin-left: 170px;
+    }
+    .partner-1 .logos{
+        margin-left: 20px;
+    }
+    .action .subscribe .icon{
+        margin-left: 90px;
+    }
+    
 }

@@ -1,21 +1,26 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
-import logo from '../../image/Sport-England-Logo-Blue-(CMYK).png';
-import logo1 from '../../image/Eagles in the Community Logo 2018.jpg';
-import logo2 from '../../image/Vision Logo 2018 FINAL transparent.png';
 import facebook from '../../image/021-facebook.png';
 import twitter from '../../image/043-twitter.png';
 import instagram from '../../image/025-instagram.png';
+import logo from '../../image/Sport-England-Logo-Blue-(CMYK).png';
+import logo1 from '../../image/Eagles_in_the_Community_Logo_2018_1-removebg-preview.png';
+import logo2 from '../../image/Vision Logo 2018 FINAL transparent.png';
+import logo3 from '../../image/CCSF-HM-removebg-preview.png';
+import logo4 from '../../image/National-Lottery-removebg-preview.png'
+import logo5 from '../../image/City-bridge-trust-removebg-preview.png';
+
+import join from '../../image/360_F_269423667_XHYPqqocezmCuFvWbRjdhZWtIP1kbNTy-removebg-preview.png';
 import './Contact.css';
-import Bounce from  'react-reveal/Bounce';
-import Fade from 'react-reveal/Fade';
+
+
 import cross from '../../image/cross-sign.png';
 
 const Contact = () => {
 
     function action() {
-        var action =document.querySelector('.action');
+        var action = document.querySelector('.action');
         action.classList.toggle('active');
     }
 
@@ -23,35 +28,35 @@ const Contact = () => {
         <div>
             <div className="contact-navbar">
                 <Navbar></Navbar>
-                <Fade left cascade>
+
                 <h1>Contact Us.</h1>
-                </Fade>
+
             </div>
             <div className="action" onClick={action}>
-            
-            <span className="text-center">Be a part of <br />  Unity</span>
-            
-            <div className="popup">
-               
-              <div className="container ml-5">
-                  
-                  <div className="row  d-flex justify-content-center align-items-center">
-                  <div className="col-md-4">
-                              <h4>Sponsor</h4>
-                              <h3>Ekota Sports</h3>
-                              <small>Be a Member</small>                  
-                              <div className="action">
-                                  <span> <img className="cross" src={cross} alt="" /> </span>
-                              </div>
-                          </div>
-                          <div className="col-md-4">
-                              <h4>Career At</h4>
-                              <h3>Ekota Sports</h3>
-                              <small>Join the team</small>                  
-                              <div className="action">
-                                  <span> <img className="cross" src={cross} alt="" /> </span>
-                              </div>
-                          </div>
+
+                <span className="text-center">Be  part of <br />  Ekota</span>
+
+                <div className="popup">
+
+                    <div className="container ml-5">
+
+                        <div className="row  d-flex justify-content-center align-items-center">
+                            <div className="col-md-4">
+                                <h4>Sponsor</h4>
+                                <h3>Ekota Sports</h3>
+                                <small>Be a Member</small>
+                                <div className="action">
+                                    <span> <img className="cross" src={cross} alt="" /> </span>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <h4>Career At</h4>
+                                <h3>Ekota Sports</h3>
+                                <small>Join the team</small>
+                                <div className="action">
+                                    <span> <img className="cross" src={cross} alt="" /> </span>
+                                </div>
+                            </div>
                             <div className="col-md-4">
                                 <h4>Join</h4>
                                 <h3>Ekota Sports</h3>
@@ -61,10 +66,32 @@ const Contact = () => {
                                 </div>
                             </div>
 
-                  </div>
-              </div>
-              <div className="container-fluid subscribe mt-5">
-                      <div className="row d-flex justify-content-center">
+                        </div>
+                    </div>
+                    <div className="container-fluid subscribe mt-5">
+                      <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-8 partner-1">
+                             <div className="row d-flex justify-content-center align-items-center">
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo1} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo2} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo3} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid logos "src={logo4} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid logos "src={logo5} alt="" />
+                                 </div>
+                             </div>
+                         </div>
                       <div className="col-md-4 icon ">
                               <div className="row d-flex justify-content-center align-items-center">
                                   <div className="col-md-5">
@@ -77,27 +104,56 @@ const Contact = () => {
                                   </div>
                               </div>
                           </div>
-                          {/* <div className="col-md-8">
-                              <input style={{border: '1px solid #000'}} type="text" placeholder="Your Email" />
-                              <a href="#" className="btn">Subscribe</a>
-                          </div> */}
+
                         
                       </div>
                   </div>
-               
+
+                </div>
             </div>
-        </div>
             <div className="contact">
-                <Bounce left>
-                <div className="container">
+
+
+                <div className="staff contact-join">
+
+                    <h3> Join us - Become a volunteer </h3>
+
+                    <div className="container">
+                        <div className="row d-flex justify-content-center align-items-center">
+
+                            <div className="col-md-6">
+                                <div className="">
+                                    <p className="mb-5">
+                                        We are seeking people to get involved from a wide range of backgrounds to be part of the diverse Ekota family.  This is a chance to be a part of a social movement working with an experienced and passionate team.
+
+                                        Become a volunteer today and gain new skills, meet new people, support and give back to your local community. Our opportunities can also help those individuals seeking paid employment to build up their confidence and skills.
+
+                                        You must be 16 years and above with no criminal convictions. All volunteers will be required to complete a DBS check. You will receive a range of relevant training and support to deliver your role.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+                            <div className="col-md-6">
+                                <img className="img-fluid "src={join} alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                {/* <div className="container">
                     <h2>Signposting to other <span style={{ color: '#e15430' }}>youth</span> services </h2>
                     <p>Ekota is here to support you working in partnership with a range of organisations. Whatever your situation - do contact us or others for help and to access opportunities. If you need further support, there are a range of services you can access</p>
-                </div>
-                </Bounce>
+                </div> */}
+
                 <div className="container ">
                     <div className="row date-events d-flex justify-content-center align-items-center">
                         <div className="col-md-6 col-sm-6">
-                            <Bounce left>
+
                             <div className="boxs">
                                 <div className="box_contents">
                                     <input type="text" placeholder="Your Name" required="required" />
@@ -113,51 +169,14 @@ const Contact = () => {
                                     <a href="#" className="btn1">Submit</a>
                                 </div>
                             </div>
-                            </Bounce>
-                        </div>
-                        <Bounce right>
-                        <div className="col-md-6 col-sm-6 calender ">
-                            <div className="row ">
-                                <div className="col-md-12 d-flex justify-content-center">
-                                    <div className="col-md-3 event-date">
-                                        <h4>29th July</h4>
-                                    </div>
-                                    <div className="col-md-9 event-details">
-                                        <h4>Walking Cricket</h4>
-                                        <h6>Ekota Academy is now offering free sessions on Walking Cricket in Goodmayes Park!.</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row mt-4 ">
-                            <div className="col-md-12 d-flex justify-content-center">
-                                    <div className="col-md-3 event-date">
-                                        <h4>29th July</h4>
-                                    </div>
-                                    <div className="col-md-9 event-details">
-                                        <h4>Walking Cricket</h4>
-                                        <h6>Ekota Academy is now offering free sessions on Walking Cricket in Goodmayes Park!.</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row mt-4 ">
-                            <div className="col-md-12 d-flex justify-content-center">
-                                    <div className="col-md-3 event-date">
-                                        <h4>29th July</h4>
-                                    </div>
-                                    <div className="col-md-9 event-details">
-                                        <h4>Walking Cricket</h4>
-                                        <h6>Ekota Academy is now offering free sessions on Walking Cricket in Goodmayes Park!.</h6>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
-                        </Bounce>
+
                     </div>
                 </div>
             </div>
-            <Bounce bottom>
-            <div className="testimonials coach text-center  ">
+
+            {/* <div className="testimonials coach text-center  ">
                 <div className="container">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -190,12 +209,12 @@ const Contact = () => {
                         </button>
                     </div>
                 </div>
-            </div>
-            </Bounce>
+            </div> */}
 
 
-           
-            <div className="sponsorship">
+
+
+            {/* <div className="sponsorship">
                 <div className="container">
                     <div className="row">
                         
@@ -214,8 +233,8 @@ const Contact = () => {
                         
                     </div>
                 </div>
-            </div>
-          
+            </div> */}
+
 
 
 

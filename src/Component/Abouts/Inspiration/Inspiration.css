@@ -1,6 +1,7 @@
 .inspiration{
     height: 80vh;
     margin-top: 200px;
+    text-align: justify;
 }
 .inspiration h1{
     font-family: 'Poppins';
@@ -24,10 +25,12 @@
     align-items: center;
     justify-content: center;
 }
-
+.football, .missions{
+    margin-left: 150px;
+}
 .left1{
     width: 50%;
-    background-image: url();
+    background-image: url(../../../image/1X_u4PD9kdIdelCkR0rAx4aVDWE_wMwBQrgpC_XoeQ8eJxFPc.jfif);
     background-repeat: no-repeat;
     filter: grayscale(1);
     background-size: cover;
@@ -53,12 +56,38 @@
     box-sizing: border-box; ;
     box-shadow: 0 5px 10px 3px #000;
 }
+.left-2{
+    width: 50%;
+    background-image: url(../../../image/WhatsApp\ Image\ 2021-07-31\ at\ 3.54.23\ PM.jpeg);
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 600px;
+    width: 550px;
+    margin-left: 200px;
+    transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
+}
+.left3{
+    width: 50%;
+    background-image: url(../../../image/WhatsApp\ Image\ 2021-07-31\ at\ 3.36.55\ PM.jpeg);
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 600px;
+    width: 550px;
+    margin-left: 200px;
+    transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
+}
 .left1:hover{
     transform: translateX(-20px);
     filter: grayscale(0);
     cursor: pointer;
 }
-.left2:hover{
+.left2:hover, .left3:hover{
     transform: translateX(20px);
     filter: grayscale(0);
     cursor: pointer;
@@ -81,6 +110,36 @@
     z-index: 10;
     transition: all 0.5s linear;
 }
+.left-1{
+    width: 50%;
+    background-image: url(../../../image/kugghjul-removebg-preview.png);
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 700px;
+    width: 550px;
+    margin-left: 200px;
+    transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
+}
+.right-1{
+    width: 50%;
+    min-height: 420px;
+    width: 600px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-right: -350px;
+    display: flex;
+    box-shadow: 0 0 0 1px #a0a3a5;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Poppins';
+    z-index: 10;
+    margin-left: 150px;
+    transition: all 0.5s linear;
+}
 
 .rights1{
     width: 50%;
@@ -98,6 +157,12 @@
     z-index: 10;
     margin-left: 150px;
     transition: all 0.5s linear;
+}
+.right-1 p{
+    font-size: 14px;
+}
+.rights1 p{
+    font-size: 14px;
 }
 
 .info{
@@ -139,13 +204,16 @@
     box-shadow: inset 165px 0 0 0 #000;
 }
 
+.teams{
+    margin-left: 100px;
+}
 .box{
     background: #fff;
     box-shadow: 0 0 0 1px #E2E9ED;
     box-shadow: 0 0 0 1px #a0a3a5;
     font-family: 'Poppins';
     position: relative;
-    padding: 60px 10px;
+    padding: 60px 5px;
     z-index: 0;
     transition: all 0.2s linear;
 }
@@ -207,29 +275,44 @@
 }
 .para{
     margin-top: 100px;
-    background-color: rgba(255, 225, 0, 0.055);
-    height: 450px;
-    border-left: 10px solid goldenrod;
+    
+    height: 500px;
+    background-size: cover;
+  
 }
 .para h1{
     text-align: left;
     font-family: sans-serif;
-    font-size: 70px;
-    color: goldenrod;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
 }
 .academy p{
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-align:justify;
     
-    padding: 0 60px;
-    margin-bottom: 100px;
-    line-height: 30px;
+    
  
+}
+.academy ul {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 60px;
+}
+.academy img{
+    height: 600px;
+    width: 600px;
+    margin-top: 50px;
+   
 }
 
 @media (max-width: 1024px){
     
-   
-    .left2,.left1{
+    .football, .missions{
+        margin-left: 0;
+    }
+    .left-2, .left2, .left1 , .left3{
         margin-left: 0;
         width: 50%;
     }
@@ -238,6 +321,11 @@
         margin-right: -180px;
         
         
+    }
+    .left1{
+       
+        margin-left: 0;
+        width: 700px;
     }
    
     .line{
@@ -251,18 +339,28 @@
     .containers{
         flex-direction: column;
     }
-    .left2, .left1{
+    .left2, .left3, .left-2{
         width: 100%;
-        margin-left: 0;
+        margin-left: 0px;
+        width: 600px;
+    }
+    .left1{
+       
+       margin-left: 0;
+        width: 700px;
+    }
+    .right{
+        margin-left: 0px;
+        width: 90%;
     }
     .right1{
-        width: 70%;
-        margin-left: 0;
+        width: 80%;
+        margin-left: 0px;
         margin-top: -250px;
     }
     .rights1{
         margin-top: 350px;
-        margin-left: 0;
+        margin-left: 0px;
         margin-right: 0;
         width: 70%;
         margin-bottom: -200px;
@@ -310,18 +408,52 @@
 
 }
 @media (max-width: 500px){
+    .inspiration{
+        height: 110vh;
+    }
     .para{
        height: 850px;
 
     }
+    .left2, .left3, .left-2{
+        width: 100%;
+        margin-left: 0px;
+      
+    }
+    .left1{
+        width: 100%;
+       margin-left: 0;
+      
+    }
+    .academy img{
+        height: 400px;
+        margin-top: 200px;
+    }
   
     .para p{
         padding: 0;
+        
     }
+    .football p{
+        width: 250px;
+        padding-left: 20px;
+    }
+    .football .content h2, .football .content h4{
+        padding-left: 20px;
+    }
+    .rights1 p{
+        
+        padding-left: 40px;
+    }
+    .rights1 h2{
+        padding-left: 40px;
+        font-size: 28px;
+    }
+    
 }
 @media (min-width: 1920px){
     .football,.missions{
-        margin-left: 600px;
+        margin-left: 300px;
     }
     .box{
         width: 400px;

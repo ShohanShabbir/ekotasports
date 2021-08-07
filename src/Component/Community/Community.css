@@ -1,6 +1,7 @@
 .community{
     background: url(../../image/ZQgXhC84UabKkGfmeXpsDnR3q8jBok0ZJIJUkXQ86FoeJxFPc.jfif);
     height: 500px;
+    background-size: cover;
 
 }
 .community h1{
@@ -10,6 +11,128 @@
     margin-top: 50px;
     color: #fff;
     margin-left: 20px;
+}
+#section{
+    margin-top: 200px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .containers{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.population-left{
+    width: 50%;
+    background-image: url(../../image/WhatsApp\ Image\ 2021-07-31\ at\ 5.24.53\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-position: 30%;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 700px;
+    width: 550px;
+    margin-left: 150px;
+    transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
+}
+
+.population-right{
+    width: 50%;
+    min-height: 420px;
+    width: 600px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-right: -350px;
+    display: flex;
+    box-shadow: 0 0 0 1px #a0a3a5;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    padding: 2rem;
+    font-family: 'Poppins';
+   
+    margin-left: 0px;
+    transition: all 0.5s linear;
+}
+.ekota-right{
+    width: 50%;
+    min-height: 420px;
+    width: 600px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-right: -350px;
+    display: flex;
+    box-shadow: 0 0 0 1px #a0a3a5;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    padding: 2rem;
+    font-family: 'Poppins';
+   
+    margin-left: 0px;
+    transition: all 0.5s linear;
+}
+.ekota-left{
+    width: 50%;
+    background-image: url(../../image/WhatsApp\ Image\ 2021-07-31\ at\ 2.08.25\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 700px;
+    width: 550px;
+    margin-left: 150px;
+    transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
+}
+.summer-left{
+    width: 50%;
+    background-image: url(../../image/WhatsApp\ Image\ 2021-07-30\ at\ 5.46.07\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    filter: grayscale(1);
+    background-size: cover;
+    height: 600px;
+    width: 550px;
+    margin-left: -200px;
+    transition: all 2s linear;
+    box-sizing: border-box; ;
+    box-shadow: 0 5px 10px 3px #000;
+}
+.summer-right{
+    width: 50%;
+    min-height: 420px;
+    width: 600px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-right: -350px;
+    display: flex;
+    box-shadow: 0 0 0 1px #a0a3a5;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    padding: 2rem;
+    font-family: 'Poppins';
+    margin-left: -150px;
+    
+    transition: all 0.5s linear;
+}
+.population-right p{
+    font-size: 14px;
+}
+
+.summer-left:hover ,.population-left:hover, .ekota-left:hover{
+    transform: translateX(20px);
+    filter: grayscale(0);
+    cursor: pointer;
 }
 .health{
     font-family: 'Poppins';
@@ -22,28 +145,35 @@
     font-weight: 600;
 }
 .health h4{
-    font-size: 35px;
-    font-weight: 500;
-    color: #e15430
+    font-size: 25px;
+    font-weight: 600;
+    
 }
 .health p{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 30px;
+}
+.health img{
+    height: 700px;
 }
 .projects{
     font-family: "Poppins";
     margin-top: 100px;
+}
+.projects h4{
+    font-size: 25px;
+    font-weight: 600;
 }
 .projects h3{
     font-size: 45px;
     font-weight: 600;
 }
 .projects p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
 }
 .projects img{
-    height: 300px;
+    height: 600px;
     object-fit: cover;
 }
 .community-slider {
@@ -97,34 +227,63 @@
     .community-slider{
         margin-left: 0;
     }
-}
-
-@media (max-width: 768px){
-    .community-slider{
-       width: 700px;
-       margin-left: 30px;
-    }
-    .para1{
-        height: 800px;
+    .community h1{
+        font-size: 100px;
     }
     .community{
         height: 600px;
     }
-    .community h1{
-        font-size: 100px;
-        margin-top: 100px;
+    .para1{
+        height: 800px;
     }
-    .projects{
+    .community-slider{
         margin-left: 0;
-        
-    }
-    .projects img{
-        height: 250px;
+        width: 700px;
     }
     .projects h3{
         font-size: 35px;
     }
 }
+@media(max-width:768px){
+    .containers{
+        flex-direction: column;
+       
+    }
+    .summer-left{
+       width: 80%;
+       margin-bottom: -100px;
+       margin-left: 70px;
+    }
+    .summer-right{
+        width: 60%;
+        margin-right: -200px;
+        
+    }
+    .population-right{
+        width: 65%;
+        margin-right: -50px;
+        
+
+    }
+    .population-left{
+        width: 80%;
+        margin-top: -150px;
+        margin-right: 100px
+        
+    }
+    .ekota-right{
+        width: 65%;
+        margin-left: -320px;
+    }
+    .ekota-left{
+        margin-left: 20px;
+        margin-top: -150px;
+        width: 80%;
+    }
+
+}
+
+
 @media (max-width: 600px){
     .community h1{
         font-size: 58px;
@@ -154,10 +313,36 @@
     .health p{
         margin-left: 0;
     }
+    .population-left {
+        width: 100%;
+        height: 600px;
+        margin-right: 150px;
+    }
+    .population-right {
+        width: 90%;
+        margin-right: 10px;
+    }
+    .summer-right{
+        width: 90%;
+        margin-right: -150px;
+    }
+    .summer-left{
+        width: 100%;
+        margin-right: 70px;
+        height: 500px;
+    }
+    .ekota-left{
+        width: 100%;
+        margin-right: 15px;
+    }
+    .ekota-right{
+        width: 90%;
+        margin-right: -320px;
+    }
 }
-@media(min-width: 1920px){
+@media only screen and (min-width: 1920px) and (max-height:1080px){
     .project {
-        margin-left: 600px;
+        margin-left: 370px;
         width: 1200px;
     }
     .testimonials p{
@@ -168,5 +353,49 @@
 @media(min-width: 2560px){
     .community-slider{
         margin-left: 700px;
+    }
+}
+@media(max-width: 1440px){
+    .community-slider{
+        margin-left: 120px;
+    }
+}
+@media (max-width: 768px){
+
+    .summer-right{
+
+    }
+    .community-slider{
+       width: 700px;
+       margin-left: 0px;
+    }
+    .para1{
+        height: 800px;
+    }
+    .community{
+        height: 700px;
+    }
+    .community h1{
+        font-size: 80px;
+        margin-top: 100px;
+    }
+    .projects{
+        margin-left: 0;
+        
+    }
+    .projects img{
+        height: 250px;
+    }
+    .projects h3{
+        font-size: 35px;
+    }
+}
+@media(max-width: 500px){
+    .community h1{
+        font-size: 60px;
+    }
+    .community-slider{
+        width: 350px;
+        margin-left: 30px;
     }
 }

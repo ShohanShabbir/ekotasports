@@ -12,24 +12,35 @@
     background-attachment: fixed;
 }
 .description{
-   margin-left: 40px;
-    
+    margin-left: 0;
 }
-.testimonial h2{
-    
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(255, 254, 255);
-    margin-top: 50px;
-    margin-left: 10px;
-    
-   
+.overlays p{
+    font-size: 18px;
+    color: #fff;
+    padding: 0 20px;
+   padding-bottom: 20px;
 }
+
+.overlays{
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.473);
+   height: 500px;
+   font-size: 20px;
+  
+}
+.testimonial .overlays h2{
+    
+    font-size: 14px;
+    color: #fff;
+    line-height:2rem;
+    padding: 0 20px;
+}
+
 .testimonial h5{
     color: #fff;
     font-weight: 500;
     font-size: 24px;
-    margin-left: 20px;
+  
 }
 .description-btn{
     
@@ -41,6 +52,7 @@
     transition: all 1s linear;
     box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
     outline: none;
+    font-size: 16px;
 }
 .description-btn:hover{
     box-shadow: inset 235px 0 0 0 #000;
@@ -79,21 +91,35 @@
 }
 @media (max-width: 500px){
     .background{
-        height: 800px;
+       height: 650px;
+       background-size: cover;
+    }
+    .overlays{
+        height: 700px;
+        width: 400px;
     }
     .testimonial{
-        height: 90vh;
+        height: 60vh;
     }
-    .testimonial h2{
-        font-size: 20px;
+    .testimonial .overlays h2{
+        font-size: 14px;
+        padding-right: 50px;
+        
     }
     .testimonial h5{
         font-size: 16px;
+        padding-right: 280px;
     }
+    
     
 }
 @media (min-width: 1920px){
     .testimonial{
         height: 50vh;
+    }
+}
+@media (max-width:1300px){
+    .overlays{
+        height: 550px;
     }
 }

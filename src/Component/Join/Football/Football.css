@@ -34,6 +34,7 @@
 .foundation{
     margin-top: 100px;
     font-family: 'Poppins';
+    text-align: justify;
 }
 .foundation .images{
     height: 500px;
@@ -163,7 +164,7 @@
 }
 @media (max-width: 475px){
     .navbar_background h1{
-        font-size: 80px;
+        font-size: 70px;
     }
     .foundation .images{
         margin-top: 40px;
@@ -179,7 +180,7 @@
 
     }
     .foundation h3, .foundation p, .liner , .foundation .btn{
-        margin-left: 40px;
+       margin-left: 0;
     }
 }
 @media (max-width: 375px){

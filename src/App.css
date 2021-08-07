@@ -1,4 +1,7 @@
-
+.App{
+  
+  font-family: 'Poppins';
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

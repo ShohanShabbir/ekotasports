@@ -1,0 +1,47 @@
+.project-bg{
+    background: url(../../image/ZQgXhC84UabKkGfmeXpsDnR3q8jBok0ZJIJUkXQ86FoeJxFPc.jfif);
+    height: 500px;
+    background-size: cover;
+}
+.project-bg h1{
+    color: #fff;
+    font-size: 150px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.project-des h2{
+    margin-bottom: 50px;
+}
+.project-des span{
+    color: red;
+}
+.project-des img{
+   
+    margin-left: 100px;
+}
+.project-des{
+    margin-top: 200px;
+
+}
+
+@media(max-width: 768px){
+    .project-des img{
+        margin-left: 50px;
+        height: 180px;
+    }
+}
+@media(max-width: 500px){
+    .project-des img{
+       margin-top: 50px;
+        height: 150px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+    .project-youth .img{
+        height: 180px;
+    }
+    .project-bg h1{
+        font-size: 80px;
+    }
+}

@@ -4,6 +4,7 @@
     background-size: cover;
     font-family: 'Poppins';
     margin-bottom: 100px;
+    text-align: justify;
     
 }
 /* .body{
@@ -96,8 +97,8 @@
 .div{
     margin-bottom: 50px;
     height: 300px;
-    width: 900px;
-    margin-left: 300px;
+    width: 600px;
+    
 }
 
 .management-button{
@@ -125,7 +126,7 @@
     margin-top: 200px;
     font-size: 45px;
     font-weight: 600;
-    margin-left: 100px;
+    margin-left: 140px;
 }
 .staff h6, .management h6{
     text-align: right;
@@ -141,7 +142,8 @@
 .management h3, .news h3{
     margin-top: 200px;
     font-size: 45px;
-    text-align: center;
+    text-align: left;
+    margin-left: 300px;
     font-weight: 600;
   
 }
@@ -167,86 +169,19 @@
     font-weight: 600;
    
 }
-@media(max-width: 1024px){
-    .club-background{
-        height: 550px;
-    }
-   
-    .club-background h1{
-        font-size: 150px;
-       
-    }
-    .div{
-        margin-left: 90px;
-    }
-   
-}
-@media(max-width: 768px){
-   
-    
-    .club-background h1{
-        margin-top: 100px;
-        font-size: 110px;
-    }
-    .div{
-        margin-left: 50px;
-        width: 700px;
-        height: 350px;
-    }
-    .div img{
-        margin-left: 500px;
-    }
-    .club-background .aims h3{
-        margin-left: 15px;
-    }
-    .club-background{
-        height: 600px;
-       
-        
-    }
-    .lines{
-        width: 650px;
-    }
-    .news .image{
-        height: 210px;
-        width: 210px;
-    }
-    .news img{
-        height: 210px;
-        width: 210px;
-    }
-     .management h3{
-        margin-top: 400px;
-        font-size: 30px;
-        font-weight: 600;
-        margin-left: 20px;
-    }
-    .club-background .aims h3{
-        font-size: 30px;
-        margin-top: 300px;
-        
-    }
-   .events .boxs{
-      width: 280px;
-      margin-left: -28px;
 
-   }
-   .btn-news .btn1{
-       margin-left: 40px;
-   }
-    
-    .boxs .avatars{
-        height: 100px;
-        width: 100px;
-    }
-    
-   
-}
 @media (max-width: 600px){
+    .club-background{
+       height: 140vh;
+    }
     .club-background h1{
         margin-top: 200px;
-        font-size: 76px;
+        font-size: 50px;
         margin-left: 0;
+    }
+    .staff img{
+        height: 400px;
+        object-fit: cover;
     }
 
     .club-background{
@@ -323,16 +258,18 @@
 @media (min-width: 1920px){
     .management h3{
         margin-top: 400px;
+        margin-left: 120px;
     }
     .staff h3{
-        margin-left: 200px;
+        margin-left: 120px;
     }
+
     .management{
         margin-left: 50px;
     }
     .div{
         width: 1200px;
-        margin-left: 670px;
+        
     }
     .management p{
         font-size: 26px;
@@ -341,9 +278,138 @@
     .staff p{
         font-size: 26px;
         line-height: 2.5rem;
-        margin-left: 60px;
+        
+       padding-bottom: 100px;
+       width: 800px;
+       margin-left: -180px;
     }
     .teams h2{
+        padding-top: 200px;
         margin-left: 180px;
     }
+    .staff img{
+        height: 700px;
+        width: 900px;
+        object-fit: cover;
+        margin-left: 100px;
+    }
+    .volunteer-img img{
+        margin-left: -180px;
+    }
+    .teams{
+        margin-left: 0;
+    }
+    
+}
+@media(max-width: 1300px){
+    .staff h3,.management h3{
+        margin-left: 180px;
+    }
+    .div{
+        margin-left: 180px;
+    }
+}
+@media(max-width: 768px){
+   
+    
+    .club-background h1{
+        margin-top: 100px;
+        font-size: 110px;
+    }
+    .div{
+        margin-left: 0;
+        width: 500px;
+        height: 350px;
+        
+    }
+    .div img{
+        margin-left: 0;
+    }
+   
+    .club-background{
+        height: 600px;
+       
+        
+    }
+    
+   
+     .management h3{
+        margin-top: 300px;
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .staff h3{
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .staff p{
+        margin-left: 0;
+        font-size: 10px;
+    }
+    .teams{
+        margin-left: 0;
+    }
+    
+   
+}
+@media(max-width: 1024px){
+    .club-background{
+        height: 550px;
+    }
+   
+    .club-background h1{
+        font-size: 150px;
+       
+    }
+    .div{
+        margin-left: 0;
+    }
+    .div img{
+        margin-left: 700px;
+    }
+    .management h3, .staff h3{
+        margin-left: 0;
+    }
+}
+@media (max-width: 500px){
+    .club-background{
+        height: 90vh;
+    }
+    .club-background h1{
+        font-size: 100px;
+    }
+    .management h3{
+        margin-top: 500px;
+        font-size: 18px;
+    }
+    .div{
+        width: 400px;
+       padding-bottom: 100px;
+    }
+    .div img{
+        margin-left: 300px;
+    }
+    .management p{
+        padding-right:50px;
+    }
+    .staff h3{
+        font-size: 24px;
+        padding-top: 50px;
+    }
+    .staff img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .management img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .staff p{
+        font-size: 14px;
+        padding-right: 30px;
+    }
+    .teams{
+        margin-left: 0;
+    }
+   
 }

@@ -3,16 +3,24 @@ import Navbar from '../Navbar/Navbar';
 import Header from '../Header/Header';
 import About from '../../Component/About/About';
 import Banner from '../../Component/Banner/Banner';
-import Success from '../../Component/Success/Success';
 import Footer from '../../Component/Footer/Footer';
 
 import facebook from '../../image/021-facebook.png';
 import instagram from '../../image/025-instagram.png';
 import twitter from '../../image/043-twitter.png';
+import logo from '../../image/Sport-England-Logo-Blue-(CMYK).png';
+import logo1 from '../../image/Eagles_in_the_Community_Logo_2018_1-removebg-preview.png';
+import logo2 from '../../image/Vision Logo 2018 FINAL transparent.png';
+import logo3 from '../../image/CCSF-HM-removebg-preview.png';
+import logo4 from '../../image/National-Lottery-removebg-preview.png'
+import logo5 from '../../image/City-bridge-trust-removebg-preview.png';
 
 import cross from '../../image/cross-sign.png';
 import video from '../../video/Comp 1.mp4';
 import './Home.css';
+import Testimonials from '../Testimonials/Testimonials';
+import Gallery from '../Gallery/Gallery';
+
 
 const Home = () => {
     function action() {
@@ -22,17 +30,22 @@ const Home = () => {
 
     return (
        
-        <div>
+        <div className="home">
+           
             <video className="video" autoPlay loop muted>
                 <source src={video} type="video/mp4" />
+
+               
             </video>
+          
          
             <Navbar></Navbar>
+            <h1 className="home-text">The Place to Be</h1>
             <Header></Header>
          
             <div className="action" onClick={action}>
             
-                <span className="text-center">Be a part of <br />  Unity</span>
+                <span className="text-center">Be  part of <br />  Ekota</span>
                 
                 <div className="popup">
                    
@@ -68,7 +81,29 @@ const Home = () => {
                       </div>
                   </div>
                   <div className="container-fluid subscribe mt-5">
-                      <div className="row d-flex justify-content-center">
+                      <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-8 partner-1">
+                             <div className="row d-flex justify-content-center align-items-center">
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo1} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo2} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid "src={logo3} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid logos"src={logo4} alt="" />
+                                 </div>
+                                 <div className="col-md-2">
+                                     <img className="img-fluid logos"src={logo5} alt="" />
+                                 </div>
+                             </div>
+                         </div>
                       <div className="col-md-4 icon ">
                               <div className="row d-flex justify-content-center align-items-center">
                                   <div className="col-md-5">
@@ -81,10 +116,7 @@ const Home = () => {
                                   </div>
                               </div>
                           </div>
-                          {/* <div className="col-md-8">
-                              <input style={{border: '1px solid #000'}} type="text" placeholder="Your Email" />
-                              <a href="#" className="btn">Subscribe</a>
-                          </div> */}
+
                         
                       </div>
                   </div>
@@ -95,7 +127,8 @@ const Home = () => {
            
             <About></About>
             <Banner></Banner>
-            <Success></Success>
+            <Testimonials></Testimonials> 
+            <Gallery></Gallery>    
             <Footer></Footer>
 
         </div>

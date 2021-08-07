@@ -1,0 +1,17 @@
+
+.partner-img{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.partner-img img{
+    height: 150px;
+    object-fit: contain;
+    width: 250px;
+  
+}
+.partner h1{
+    font-size: 35px;
+    font-family: 'Poppins';
+    margin-bottom: 100px;
+    font-weight: 600;
+}

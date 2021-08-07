@@ -6,8 +6,8 @@
 
 .footers h3{
     font-weight: 400;
-    margin-left: 130px;
-    font-size: 60px;
+    margin-left: 110px;
+    font-size: 70px;
     text-transform: uppercase;
     margin-right: 30px;
     font-family: 'Poppins';
@@ -16,251 +16,220 @@
 .line-footer{
     background-color: #000;
     height: 3px;
-    width: 350px;
-    margin-left: 50px;
+    width: 500px;
     
+    
+
+}
+
+.detail1 .one{
+    padding-left: 18px;
+}
+.detail1 .two{
+    padding-left: 50px;
+}
+.line-footer1{
+    background-color: #000;
+    height: 3px;
+    width: 500px;
+    margin-left: 50px; 
 
 }
 .footers h5{
-    font-size: 25px;
-    margin-left: 165px;
+    font-size: 20px;
+    margin-left: 170px;
     font-family: 'Poppins';
     font-weight: 500;
 }
-.footers h6{
-    font-weight: 500;
+.details-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.details-footer .detail1{
+    margin-left: 320px;
+}
+.details-footer .detail2{
     margin-left: 100px;
-    transition: all 1s linear;
 }
-.footer:hover h6{
-    border-bottom: 1px solid #000;
+.details-footer .detail3{
+    margin-left: 50px;
 }
-.footers .social-icon{
-    margin-left: 70px;
+.detail2{
+    margin-right: 30px;
 }
-.footers .social-icon img{
-     height: 24px;
-     margin-left: 20px;
-     transition: all 1s linear;
+.details-footer .detail2 img{
+    height: 20px;
+    margin-right: 40px;
+    transition: 0.5s linear;
 }
-.footers .social-icon img:hover{
-    transform: translateY(10px);
+.details-footer .detail2 img:hover{
+    transform: translateY(-10px);
     cursor: pointer;
 }
-.footers ul{
-    list-style: none;
-    margin-left: -40px;
-    
-}
-.footers ul li{
-    margin-right: 50px;
-    margin-top: 30px;
-    
-}
-.footers .newsletter {
-    margin-top: 50px;
-    margin-left: 450px;
-    margin-bottom: 50px;
-    
-}
-.footers .newsletter h5{
-    margin-bottom: 50px;
-    margin-left: 190px;
-}
 
-.footers input{
-    font-family: 'Poppins';
-    width: 350px;
-    margin-left: 140px;
-    height: 40px;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 10px;
-    
-}
-.footers .detail-section a{
-    text-decoration: none;
-    color: #000;
-    transition: all 0.3s linear;
-    
-}
-.footers .detail-section a:hover{
-    border-bottom:  4px solid #000;
-}
-.footers .button{
-    margin-left: 140px;
-    text-decoration: none;
-    width: 350px;
-    padding: 10px 134px;
-    border-radius:0;
-    font-family: 'Poppins';
-    background: #fff;
-    color: #000;
-    border: 1px solid #000;
-    transition: all 0.3s ease-out;
-    box-shadow: inset 0 0 0 0 #000;
-    
-}
 
-.footers .button:hover{
-    box-shadow: inset 350px 0 0 0 #000;
-    color: #fff;
-}
 
-@media (max-width: 1024px){
-    .footers{
-        height: 45vh;
+
+
+@media (max-width: 1300px){
+    .details-footer .detail1{
+        margin-left: 250px;
+    }
+    .line-footer, .line-footer1{
+        width: 400px;
     }
     .footers h3{
-        margin-left: 60px;
-    }
-    .footers h5{
-        margin-left: 100px;
-    }
-    .line-footer{
-        margin-left: 0;
-        width: 300px;
-    }
-    .footers .newsletter {
-        margin-top: 50px;
-        margin-left: 300px;
-        
-    }
-    .footers input{
-        font-family: 'Poppins';
-        width: 200px;
-        margin-left: 140px;
-        height: 55px;
-        font-size: 16px;
-        text-align: center;
-        margin-bottom: 10px;
-        border: 2px solid #000;
-        
-    }
-    .footers .button{
-        margin-left: 141px;
-        width: 200px;
-        padding: 10px 60px;
-        border-radius:0;
-        font-family: 'Poppins';
-        background: #fff;
-        color: #000;
-        border: 1px solid #000;
-        transition: all 0.3s ease-out;
-        box-shadow: inset 0 0 0 0 #000;
-        
-    }
-    .footers .newsletter {
-        margin-top: 50px;
-        margin-left: 200px;
-        
-    }
-    .footers input, .footers .button{
-        margin-left: 220px;
-    }
-}
-
-@media (max-width: 768px){
-    .line-footer{
-        margin-left: 0;
-        width: 200px;
-    }
-    .footers h3{
-        margin-left: 20px;
-    }
-    .footers h5{
-        margin-left: 50px;
-    }
-    .footers ul li{
-        margin-right: 50px;
-        margin-top: 30px;
-        
-    }
-    .detail-section{
-        margin-left: -15px;
-    }
-    .footers .newsletter {
-        margin-top: 50px;
         margin-left: 70px;
-        
-    }
-    .footers input{
-        margin-left: 220px;
-    }
-    .footers .button{
-        margin-left: 220px;
-    }
-}
-@media (max-width: 600px){
-    .footers{
-        height: 50vh;
-    }
-    .line-footer{
-        display: none;
-    }
-    .footers .text h3{
-        font-size: 45px;
-       text-align: center;
     }
     .footers h5{
-        text-align: center;
-        margin-bottom: 100px;
-        }
-    .footers .newsletter{
-        margin-left: -180px;
-        
-        
+        margin-left: 120px;
     }
-    
-    .footers input{
-        margin-left: 290px;
-    }
-    .footers .button{
-        margin-left: 290px;
-        margin-top: 0;
-    }
-    
-}
-@media (max-width: 500px){
-    .footers{
-        height: 90vh;
-    }
-    .line-footer{
-        display: none;
-    }
-    .footers .text h3{
-        font-size: 45px;
-       text-align: center;
-    }
-    .footers h5{
-        text-align: center;
-        margin-bottom: 100px;
-        }
-    .footers .newsletter{
-        margin-left: -180px;
-        
-    }
-    
-    .footers input{
-        margin-left: 280px;
-    }
-    .footers .button{
-        margin-left: 280px;
-        margin-top: 0;
-    }
-    
 }
 
-@media (max-width: 1440px){
-    .footers .newsletter{
-        margin-left: 380px;
-    }
-}
+
 @media (min-width: 1920px ){
     .footers .newsletter{
         margin-left: 670px;
     }
     .footers{
         height: 20vh;
+    }
+}
+@media (max-width: 1368px){
+    .details-footer .detail1{
+        margin-left: 250px;
+    }
+    .line-footer, .line-footer1{
+        width: 400px;
+    }
+    .footers h3{
+        margin-left: 70px;
+    }
+    .footers h5{
+        margin-left: 120px;
+    }
+}
+@media (max-width: 1024px){
+    .line-footer, .line-footer1{
+        width: 300px;
+    }
+    .footers h3{
+        font-size: 45px;
+       margin-left: 75px;
+    }
+    .details-footer .detail1{
+        margin-left: 150px;
+    }
+    .footers h5{
+        font-size: 20px;
+        margin-left: 95px;
+    }
+    .details-footer .detail2{
+        margin-left: 60px;
+    }
+}
+@media (max-width: 768px){
+    .line-footer{
+        margin-left: 0;
+        width: 200px;
+    }
+    .line-footer1{
+        margin-left: 50px;
+        width: 200px;
+    }
+    .footers h3{
+        margin-left: 25px;
+    }
+    .details-footer .detail1{
+        margin-left: 100px;
+    }
+    .footers h5{
+        margin-left: 45px;
+    }
+
+}
+@media (max-width: 600px){
+    .footers{
+        height: 50vh;
+    }
+    .line-footer, .line-footer1{
+        display: none;
+    }
+    .details-footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .details-footer .detail1{
+        margin-bottom: 50px;
+        margin-left: 100px;
+        
+    }
+    .footer h5{
+        margin-left: 0;
+    }
+    .details-footer h6{
+        font-size: 20px;
+    }
+    .details-footer .detail2{
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    .details-footer .detail3{
+        margin-left: 100px;
+    }
+
+    .footers .text h3{
+        font-size: 45px;
+       text-align: center;
+    }
+    .footers h5{
+        text-align: center;
+        margin-bottom: 100px;
+        }
+
+    .detail1 .one, .detail1 .two{
+        padding-left: 0px;
+    }
+    
+}
+@media (max-width: 500px){
+    .footers{
+        height: 60vh;
+    }
+    .line-footer{
+        display: none;
+    }
+    .footers .text h3{
+        font-size: 45px;
+       text-align: center;
+    }
+    .details-footer .detail1{
+        margin-left: 50px;
+    }
+    .footers h5{
+        margin-left: 0;
+    }
+    .details-footer .detail2{
+        margin-left: 18px;
+    }
+    .details-footer .detail3{
+        margin-left: 50px;
+    }
+    .footers h5{
+        font-size: 16px;
+    }
+    .detail1 .one, .detail1 .two,{
+        padding-left: 0;
+    }
+
+
+    
+}
+@media (max-width: 425px){
+    .footers{
+        height: 60vh;
+    }
+    .detail1 .one, .detail1 .two{
+        padding-left: 0;
     }
 }

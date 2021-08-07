@@ -1,0 +1,33 @@
+.governance-bg{
+    background: url(../../image/ZQgXhC84UabKkGfmeXpsDnR3q8jBok0ZJIJUkXQ86FoeJxFPc.jfif);
+    height: 500px;
+    background-size: cover;
+}
+
+.governance-bg h1{
+    color: #fff;
+    font-size: 150px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px){
+    .governance-bg h1{
+        margin-top: 100px;
+        font-size: 80px;
+    }
+    .governance-des{
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 500px){
+    .governance-bg{
+        height: 600px;
+    }
+    .governance-bg h1{
+        font-size: 50px;
+    }
+    .governance-des{
+        padding-top: 100px;
+    }
+}

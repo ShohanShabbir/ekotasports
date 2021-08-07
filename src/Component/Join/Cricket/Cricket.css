@@ -15,6 +15,15 @@
     font-family: 'Poppins';
     margin-top: 80px;
     margin-left: 40px;
+    text-align: justify;
+}
+
+.girl{
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 500px;
+    height: 480px;  
+    text-align: justify; 
+   
 }
 .cricket-section h3{
     font-size: 45px;
@@ -25,10 +34,12 @@
     font-size: 18px;
     line-height: 1.8rem;
     
+    
 }
 .foundation-cricket{
     margin-top: 100px;
     font-family: 'Poppins';
+    text-align: justify;
 }
 .foundation-cricket h3{
     font-size: 40px;
@@ -90,18 +101,26 @@
     background-size: cover;
     margin-top: 50px;
 }
-.girls-cricket h3{
+.female{
+    background: url(../../../image/_gqHhpDDfd7VqxZOZaLq_jlFPUndrP72ttHXxHIYHRAeJxFPc.jfif);
+    height: 480px;
+    background-size: cover;
+    margin-top: 50px
+}
+
+.girls-cricket h3, .female h3{
     color: #fff;
-    font-size: 100px;
-    margin-top: 100px;
+    font-size: 45px;
+    padding: 30px;
     font-weight: 600;
     font-family: 'Poppins';
     margin-left: 40px;
 }
-.girls-cricket p{
+.girls-cricket p, .female p{
     font-family: 'Poppins';
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 600;
+    padding: 40px;
     color: #fff;
     margin-left: 40px;
 }
@@ -120,6 +139,54 @@
     box-shadow: inset 235px 0 0 0 #000;
     color: #fff;
 }
+.all-star{
+    font-family: 'Poppins';
+    margin-top: 100px;
+    padding: 0 50px;
+    text-align: justify;
+}
+.all-star h2{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.all-star p{
+    font-size: 14px;
+    padding: 20px 40px;
+    line-height:1.5rem;
+}
+.all-star h5{
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+.all-star img{
+    height: 800px;
+    width: 700px;
+    filter: grayscale(1);
+    transition: 1s linear;
+    object-fit: cover;
+}
+.all-star img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.girl h4{
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #fff;
+    margin-left: 40px;
+    padding: 10px 30px;
+}
+
+@media(max-width: 1300px){
+    .all-star img{
+        height: 850px;
+        width: 600px;
+        margin-left: -50px;
+    }
+}
 @media (max-width: 1440px){
     .foundations h3{
         margin-left: 0;
@@ -128,20 +195,20 @@
         margin-left: 0;
     }
     .girls-cricket{
-        height: 550px;
+        height: 480px;
     }
 }
 @media (max-width: 1024px){
     .foundation-cricket .image{
-        height: 400px;
-        width: 400px;
+        height: 450px;
+        width: 450px;
         overflow: hidden;
         margin-left: 30px;
     
     }
     .foundation-cricket img{
-        height: 400px;
-        width: 400px;
+        height: 450px;
+        width: 450px;
         object-fit: cover;
         transition: all 2s linear;
     }
@@ -149,10 +216,25 @@
         width: 400px;
     }
     .girls-cricket h3{
-        font-size: 80px;
+        font-size: 40px;
     }
     .girls-cricket p{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .girl{
+        height: 48w0px;
+    }
+    .all-star img{
+        height: 850px;
+        
+        width: 500px;
+        margin-left: -50px;
+    }
+    .all-star p{
+        font-size: 12px;
+    }
+    .all-star h5{
+        font-size: 11px;
     }
 }
 @media (max-width: 768px){
@@ -177,19 +259,44 @@
     .foundation-cricket p{
         font-size: 13px;
     }
+    .girls-cricket{
+        height: 450px;
+    }
     .girls-cricket h3{
-        font-size: 45px;
+        font-size: 30px;
+    }
+    .girl{
+        height: 450px;
+    }
+    .girl p{
+        font-size: 20px;
+    }
+    .all-star{
+        flex-direction: column;
+    }
+    .all-star img{
+        max-height: 700px ;
+        width: 600px;
+        margin-bottom: 0;
+        margin-left: -150px;
+        object-fit: contain;
+       
+      
+       
+    }
+    .all-star .content{
+        width: 1200px;
     }
 }
 @media(max-width: 525px){
     .cricket-background h1{
-        font-size: 90px;
+        font-size: 70px;
         margin-top: 60px;
     }
     .foundation-cricket .image{
         height: 350px;
         width: 350px;
-        margin-left: 40px;
+        margin-left: 0;
         margin-top: 50px;
     }
     .foundation-cricket img{
@@ -197,6 +304,54 @@
         width: 350px;
     }
     .girls-cricket{
-        height: 700px;
+        height: 500px;
+    }
+    .girl{
+        height: 500px;
+    }
+    .girl h3, .girl p{
+        padding: 0;
+        margin-left: 0;
+    }
+    .girl h3{
+        font-size: 35px;
+     padding-top: 100px;
+     padding-right: 50px;
+    }
+    .girl p{
+        font-size: 16px;
+       
+        line-height: 2rem;
+        padding-right: 150px;
+        margin-left: 0;
+    }
+    .girl h4{
+        padding-right: 180px;
+        padding: 20px 0;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .all-star h2{
+        font-size: 20px;
+    }
+    .all-star h5{
+        font-size: 14px;
+    }
+    .all-star p{
+        padding: 0;
+    }
+    .foundation-cricket p{
+        margin-left: 0;
+    }
+    .foundation-cricket h3{
+        margin-left: 0;
+    }
+    .foundation-cricket .btn{
+        margin-left: 0;
+    }
+    .all-star img{
+        height: 500px;
+        width: 500px; 
+       
     }
 }
