@@ -56,10 +56,10 @@ const Navbar = () => {
                                     <li><a class="dropdown-item" href="#">Team</a></li>
                                     </Link>
                                     
-                                      <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/club/#management">Trustees</a></li>
+                                      <li><a class="dropdown-item" href="http://localhost:3000/club/#management">Trustees</a></li>
                                     
                                    
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/club/#volunteer">Volunteer</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/club/#volunteer">Volunteer</a></li>
                                    
                                    
                                 </ul>
@@ -77,13 +77,13 @@ const Navbar = () => {
                                     <li><a class="dropdown-item" href="#">Sports</a></li>
                                     </Link>
                                     
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/football">Football</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/football">Football</a></li>
                                     
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/cricket">Cricket</a></li>
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/join/#martial">Martial Arts</a></li>
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/join/#badminton">Badminton</a></li>
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/join/#walking">Walking Cricket</a></li>
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/join/#">Futsal</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/cricket">Cricket</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/join/#martial">Martial Arts</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/join/#badminton">Badminton</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/join/#walking">Walking Cricket</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/join/#">Futsal</a></li>
                                    
                                    
                                 </ul>
@@ -101,9 +101,9 @@ const Navbar = () => {
                                     <li><a class="dropdown-item" href="#">Community</a></li>
                                     </Link>
                                     
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/community/#population">Population Health and Inequalities </a></li>
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/projects">Projects</a></li>
-                                    <li><a class="dropdown-item" href="http://ekotasportsacademy.web.app/youth">Youth Support</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/community/#population">Population Health and Inequalities </a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/projects">Projects</a></li>
+                                    <li><a class="dropdown-item" href="http://localhost:3000/youth">Youth Support</a></li>
                                    
                                    
                                 </ul>
